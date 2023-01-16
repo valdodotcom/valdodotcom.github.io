@@ -9,10 +9,9 @@
     <div class="px-10 py-5">
         <h3 class="py-5">Skill Set</h3>
         <ul>
-            <ng-container *ngFor="let singleSkill of skillSet;">
-                <li>{{ singleSkill }}</li>
+            <ng-container *ngFor="let singleTool of tools;">
+                <li>{{ singleTool.language }} - {{ singleTool.level }}</li>
             </ng-container>
         </ul>
     </div>
-
 </section>

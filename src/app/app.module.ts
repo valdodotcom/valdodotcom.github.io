@@ -10,6 +10,8 @@ import { SkillsComponent } from './skills/skills.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { SinglePageComponent } from './single-page/single-page.component';
 import { AboutModule } from './about/about.module';
+import { SkillsModule } from './skills/skills.module';
+import { ProjectsModule } from './projects/projects.module';
 
 @NgModule({
   declarations: [
@@ -17,14 +19,16 @@ import { AboutModule } from './about/about.module';
     HomeComponent,
     // AboutComponent,
     ContactComponent,
-    SkillsComponent,
-    ProjectsComponent,
+    // SkillsComponent,
+    // ProjectsComponent,
     SinglePageComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AboutModule
+    AboutModule,
+    SkillsModule,
+    ProjectsModule
   ],
 
   providers: [],

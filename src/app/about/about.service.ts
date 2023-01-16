@@ -24,17 +24,19 @@ export class AboutService {
   }
 
   getSkillSet() {
-    return [
-      "Angular",
-      "HTML5",
-      "CSS3",
-      "JavaScript",
-      "Flutter",
-      "Flask",
-      "Python",
-      "Arduino",
-      "C++",
-      "Java"
+    return [  
+      { "language": 'Angular', "level": 'Proficient' },  
+      { "language": 'HTML5', "level": 'Proficient' },  
+      { "language": 'CSS3', "level": 'Proficient' },  
+      { "language": 'JavaScript', "level": 'Proficient' },
+      { "language": 'TypeScript', "level": 'Proficient' },    
+      { "language": 'Flutter', "level": 'Proficient' },  
+      { "language": 'Flask', "level": 'Proficient' },  
+      { "language": 'Python', "level": 'Proficient' },  
+      { "language": 'Arduino', "level": 'Proficient' },  
+      { "language": 'C++', "level": 'Proficient' },
+      { "language": 'C', "level": 'Proficient' },  
+      { "language": 'Java', "level": 'Proficient' },
     ]
   }
 
