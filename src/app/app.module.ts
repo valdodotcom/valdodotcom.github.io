@@ -9,12 +9,13 @@ import { ContactComponent } from './contact/contact.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { SinglePageComponent } from './single-page/single-page.component';
+import { AboutModule } from './about/about.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    AboutComponent,
+    // AboutComponent,
     ContactComponent,
     SkillsComponent,
     ProjectsComponent,
@@ -23,6 +24,7 @@ import { SinglePageComponent } from './single-page/single-page.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    AboutModule
   ],
 
   providers: [],
