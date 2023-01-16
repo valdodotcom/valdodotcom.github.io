@@ -60,7 +60,7 @@ export class ProjectsService {
         "description": `A webpage to honor or remember a person, group, or organization.`,
         "image": "link",
         "repo": "link",
-        "demo": "link"  
+        "demo": "link"
       },
 
       {

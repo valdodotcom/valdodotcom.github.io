@@ -1,21 +1,14 @@
 <section id="contact" class="px-20 py-10">
     <div>
         <p>Have an enquiry?</p>
-        <h2 class="py-5">Contact me now:</h2>
+        <h2 class="py-5">Contact Me:</h2>
     </div>
     <div>
         <ul>
-            <li>
-                Email
-            </li>
-            <li>
-                Phone Number
-            </li>
-            <li>
-                Address
-            </li>
+            <ng-container *ngFor="let singleContact of contacts;">
+            <li> {{ singleContact.name }} - {{ singleContact.address }} </li>
+        </ng-container>
         </ul>
     </div>
-
 </section>
 
