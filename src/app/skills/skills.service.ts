@@ -11,12 +11,10 @@ export class SkillsService {
     return [
         {
           "name": "Web Development",
-          "description": `With my knowledge in responsive web design using HTML, 
-          CSS, and JavaScript, I am able to create visually stunning, user-friendly websites 
-          that adapt seamlessly to any device or screen size, including mobile, tablet, and 
-          laptop. I possess the ability to build custom web applications using the Angular 
-          framework from the ground up, tailored to the unique needs of you and your customers, 
-          ensuring their satisfaction with the final product.`,
+          "description": `I can create responsive websites and custom web applications using 
+          HTML, CSS, JavaScript, and Angular, that adapt to any device and are tailored to 
+          the unique needs of you and your customers, with a focus on user-friendliness 
+          and visual appeal.`,
           "icon": ""
         },
 

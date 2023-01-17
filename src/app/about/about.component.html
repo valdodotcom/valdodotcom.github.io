@@ -1,10 +1,10 @@
-<section id="about" class="px-20 py-10">
+<section id="about" class="px-10 lg:px-40 py-10 text-center">
     <div>
         <h2>About Me</h2>
         <div class="px-2 py-5">
             <h3>Profile</h3>
             <ng-container *ngFor="let singleP of paragraphs;">
-                <p class="px-2 py-3">{{ singleP }}</p>
+                <p class="py-3">{{ singleP }}</p>
             </ng-container>
         </div>
 
@@ -12,10 +12,12 @@
 
     <div class="px-2 py-5">
         <h3 class="py-5">Skill Set</h3>
-        <ul>
-            <ng-container *ngFor="let singleTool of tools;">
-                <li class="px-2 py-1">{{ singleTool.language }} - {{ singleTool.level }}</li>
+
+        <div class="grid grid-cols-3">
+            <ng-container *ngFor="let singleTool of tools; let i = index">
+                <div [ngStyle]="{'grid-column': (i % 3) + 1 }" class="px-2 py-1">
+                    {{ singleTool.language }} - {{ singleTool.level }}</div>
             </ng-container>
-        </ul>
+        </div>
     </div>
 </section>
