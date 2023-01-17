@@ -7,7 +7,7 @@ export class AboutService {
 
   constructor() { }
 
-    getParagraphs() {
+  getParagraphs() {
     return [
       ` I am a computer engineer with a keen interest in software development 
       seeking to bring your software-related ideas to life!`,
@@ -40,4 +40,28 @@ export class AboutService {
     ]
   }
 
+  // getSkillSet() {
+  //   return {
+  //     group1: 
+  //     [{"language": 'Angular', "level": 'Proficient'}, 
+  //     { "language": 'HTML5', "level": 'Proficient' },
+  //     { "language": 'CSS3', "level": 'Proficient' },
+  //     { "language": 'Flutter', "level": 'Proficient' }],
+      
+  //     group2: 
+  //     [{ "language": 'JavaScript', "level": 'Proficient' }, 
+  //     { "language": 'TypeScript', "level": 'Competent' }, 
+  //     { "language": 'Flask', "level": 'Competent' }, 
+  //     { "language": 'Python', "level": 'Proficient' }],
+
+  //     group3: 
+  //     [{ "language": 'Arduino', "level": 'Competent' }, 
+  //     { "language": 'C++', "level": 'Familiar' }, 
+  //     { "language": 'C', "level": 'Familiar' }, 
+  //     { "language": 'Java', "level": 'Familiar'}]
+  //   }
+  // }
+
 }
+
+

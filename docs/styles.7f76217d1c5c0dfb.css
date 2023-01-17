@@ -484,6 +484,20 @@ body {
     color: #fff
 }
 
+@media (max-width: 1000px) {
+    .grid {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column
+    }
+}
+
+.box {
+    height: max-content;
+    border-width: 1px;
+    border-color: #f0f8ff
+}
+
 @media (min-width: 1024px) {
     .lg\:px-40 {
         padding-left: 10rem;
