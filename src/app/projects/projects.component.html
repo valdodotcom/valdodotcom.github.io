@@ -1,16 +1,16 @@
-<section id="projects" class="px-20 py-10 text-center">
+<section id="projects" class="px-10 lg:px-20 py-10 text-center">
     <div class="py-5 text-center">
         <h2>Portfolio</h2>
-    <p>Some projects I have worked on that 
+    <p class="p-3">Some projects I have worked on that 
         highlight my skills in different applications:</p>
     </div>
     
 
         <div class="grid grid-cols-3">
             <ng-container *ngFor="let singleProject of projects; let i = index">
-                <div [ngStyle]="{'grid-column': (i % 3) + 1 }" class="px-2 py-1 box">
-                    <h3>{{ singleProject.name }}</h3>
-                     <p class="py-2 px-10">{{ singleProject.description }}</p></div>
+                <div [ngStyle]="{'grid-column': (i % 3) + 1 }" class="box">
+                    <h3 class="pt-10">{{ singleProject.name }}</h3>
+                     <p class="px-10 pb-10 pt-3">{{ singleProject.description }}</p></div>
             </ng-container>
         </div>
 

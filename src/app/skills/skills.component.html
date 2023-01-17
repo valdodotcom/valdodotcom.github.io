@@ -1,4 +1,4 @@
-<div id="services" class="px-20 py-10 text-center">
+<div id="services" class="px-10 lg:px-20 py-10 text-center">
     <h2 class="py-10">Services</h2>
         <!-- <ul> -->
             <!-- <ng-container *ngFor="let singleService of services;">
@@ -8,10 +8,9 @@
                 </li>
             </ng-container> -->
         <!-- </ul> -->
-
         <div class="grid grid-cols-3">
             <ng-container *ngFor="let singleService of services; let i = index">
-                <div [ngStyle]="{'grid-column': (i % 3) + 1 }" class="px-2 py-1 box">
+                <div [ngStyle]="{'grid-column': (i % 3) + 1 }" class="p-10 box serv">
                     <h3>{{ singleService.name }}</h3>
                      <p class="py-2 px-10">{{ singleService.description }}</p></div>
             </ng-container>

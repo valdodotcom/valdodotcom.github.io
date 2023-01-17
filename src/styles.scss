@@ -11,7 +11,7 @@ h2 {
 }
 
 h3 {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 body {
@@ -21,7 +21,7 @@ body {
   }
   
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1024px) {
     .grid {
      display: flex;
      flex-wrap: nowrap;
@@ -31,7 +31,13 @@ body {
 
   .box {
     // width: 30vw;
+    margin: 10px;
     height: max-content;
     border-width: 1px;
-    border-color: aliceblue;
+    border-radius: 10px;
+    border-color: #05912422;
+    transition: all 0.5s ease;
 }
+.box:hover {
+    background-color: #059124;
+  }

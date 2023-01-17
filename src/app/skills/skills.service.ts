@@ -11,7 +11,7 @@ export class SkillsService {
     return [
         {
           "name": "Web Development",
-          "description": `I can create responsive websites and custom web applications using 
+          "description": `I excel at creating responsive websites and web apps using 
           HTML, CSS, JavaScript, and Angular, that adapt to any device and are tailored to 
           the unique needs of you and your customers, with a focus on user-friendliness 
           and visual appeal.`,
