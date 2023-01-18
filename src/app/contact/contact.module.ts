@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ContactComponent } from './contact.component';
 import { ContactService } from './contact.service';
@@ -8,6 +8,7 @@ import { ContactService } from './contact.service';
   declarations: [ContactComponent],
   providers: [ContactService],
   imports: [CommonModule],
-  exports: [ContactComponent]
+  exports: [ContactComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class ContactModule { }

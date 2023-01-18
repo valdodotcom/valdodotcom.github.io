@@ -1,9 +1,14 @@
 import { Injectable } from '@angular/core';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faAddressCard, faGrinTongueWink } from '@fortawesome/free-regular-svg-icons';
+import { faAirFreshener } from '@fortawesome/free-solid-svg-icons';
 
 // @Injectable({
 //   providedIn: 'root'
 // })
 export class ContactService {
+
+  faEnvelope = faEnvelope;
 
   constructor() { }
 
@@ -12,32 +17,32 @@ export class ContactService {
       {
         "name": "Email",
         "address": "valdoato@gmail.com",
-        "icon": "link"
+        "icon": faEnvelope,
       },
       {
         "name": "Address",
         "address": "Accra, Ghana",
-        "icon": "link"
+        "icon": faAddressCard,
       },
       {
         "name": "Twitter",
         "address": "valdodotcom",
-        "icon": "link"
+        "icon": faGrinTongueWink,
       },
       {
         "name": "LinkedIn",
         "address": "linkedin.com",
-        "icon": "link"
+        "icon": faLinkedin,
       },
       {
         "name": "GitHub",
         "address": "github.com",
-        "icon": "link"
+        "icon": faAirFreshener,
       },
       {
         "name": "Codewars",
         "address": "codewars.com",
-        "icon": "link"
+        "icon": faEnvelope,
       },
     ]
   }

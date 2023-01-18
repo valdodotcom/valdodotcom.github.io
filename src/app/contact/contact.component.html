@@ -6,7 +6,9 @@
     <div>
         <ul>
             <ng-container *ngFor="let singleContact of contacts;">
-            <li> {{ singleContact.name }} - {{ singleContact.address }} </li>
+            <li>
+                <fa-icon [icon]="singleContact.icon" class="text-green"></fa-icon>
+                 {{ singleContact.name }} - {{ singleContact.address }} </li>
         </ng-container>
         </ul>
     </div>
