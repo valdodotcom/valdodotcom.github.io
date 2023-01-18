@@ -1,14 +1,15 @@
-import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ContactComponent } from './contact.component';
 import { ContactService } from './contact.service';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
 @NgModule({
   declarations: [ContactComponent],
   providers: [ContactService],
-  imports: [CommonModule],
+  imports: [CommonModule, FontAwesomeModule],
   exports: [ContactComponent],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA]
+
 })
 export class ContactModule { }

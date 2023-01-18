@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope, faAddressCard, faGrinTongueWink } from '@fortawesome/free-regular-svg-icons';
-import { faAirFreshener } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedin, faTwitterSquare, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faGlobeAfrica } from '@fortawesome/free-solid-svg-icons';
 
 // @Injectable({
 //   providedIn: 'root'
@@ -15,35 +14,31 @@ export class ContactService {
   getContacts() {
     return [
       {
-        "name": "Email",
-        "address": "valdoato@gmail.com",
-        "icon": faEnvelope,
-      },
-      {
-        "name": "Address",
-        "address": "Accra, Ghana",
-        "icon": faAddressCard,
-      },
-      {
-        "name": "Twitter",
-        "address": "valdodotcom",
-        "icon": faGrinTongueWink,
-      },
-      {
-        "name": "LinkedIn",
-        "address": "linkedin.com",
+        "name": "Valdo Ato Abruquah",
+        "address": "https://www.linkedin.com/in/valdo-ato-abruquah-64087b218/",
         "icon": faLinkedin,
       },
       {
-        "name": "GitHub",
-        "address": "github.com",
-        "icon": faAirFreshener,
+        "name": "valdodotcom",
+        "address": "https://github.com/valdodotcom",
+        "icon": faGithub,
       },
       {
-        "name": "Codewars",
-        "address": "codewars.com",
+        "name": "@valdodotcom",
+        "address": "https://twitter.com/valdodotcom",
+        "icon": faTwitterSquare,
+      },
+      {
+        "name": "Accra, Ghana",
+        "address": "",
+        "icon": faGlobeAfrica,
+      },  
+      {
+        "name": "valdoato@gmail.com",
+        "address": "",
         "icon": faEnvelope,
       },
+
     ]
   }
 }
