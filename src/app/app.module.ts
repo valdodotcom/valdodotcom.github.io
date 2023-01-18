@@ -13,6 +13,7 @@ import { AboutModule } from './about/about.module';
 import { SkillsModule } from './skills/skills.module';
 import { ProjectsModule } from './projects/projects.module';
 import { ContactModule } from './contact/contact.module';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ContactModule } from './contact/contact.module';
     AboutModule,
     SkillsModule,
     ProjectsModule,
-    ContactModule
+    ContactModule,
+    FontAwesomeModule
   ],
 
   providers: [],

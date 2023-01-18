@@ -1,4 +1,6 @@
 import { Injectable } from '@angular/core';
+import { faMobileAlt, faLaptopCode } from '@fortawesome/free-solid-svg-icons';
+import { faWindows } from '@fortawesome/free-brands-svg-icons'
 
 // @Injectable({
 //   providedIn: 'root'
@@ -11,13 +13,11 @@ export class SkillsService {
     return [
         {
           "name": "Web Development",
-          "description": `With my knowledge in responsive web design using HTML, 
-          CSS, and JavaScript, I am able to create visually stunning, user-friendly websites 
-          that adapt seamlessly to any device or screen size, including mobile, tablet, and 
-          laptop. I possess the ability to build custom web applications using the Angular 
-          framework from the ground up, tailored to the unique needs of you and your customers, 
-          ensuring their satisfaction with the final product.`,
-          "icon": ""
+          "description": `I excel at creating responsive websites and web apps using 
+          HTML, CSS, JavaScript, and Angular, that adapt to any device and are tailored to 
+          the unique needs of you and your customers, with a focus on user-friendliness 
+          and visual appeal.`,
+          "icon": faMobileAlt
         },
 
         {
@@ -25,7 +25,7 @@ export class SkillsService {
           "description": `I am an experienced in using the Flutter framework to design, 
           develop and deploy visually appealing, modern, and user-friendly mobile 
           applications for both iOS and Android that deliver an exceptional user experience.`,
-          "icon": ""
+          "icon": faLaptopCode
         },
 
         {
@@ -33,7 +33,7 @@ export class SkillsService {
           "description": `I also have experience utilizing the powerful Flutter framework 
           to develop highly functional and efficient applications that are specifically 
           tailored to solve problems and run seamlessly on the Windows Operating System.`,
-          "icon": ""
+          "icon": faWindows
         }
     ]
   }

@@ -1,14 +1,19 @@
-<section id="contact" class="px-20 py-10">
+<section id="contact" class="lg:px-20 py-10 text-center">
     <div>
         <p>Have an enquiry?</p>
-        <h2 class="py-5">Contact Me:</h2>
+        <h2 class="pt-3">Contact Me</h2>
+        <!-- <fa-icon [icon]="faEnvelope"></fa-icon> -->
     </div>
     <div>
-        <ul>
-            <ng-container *ngFor="let singleContact of contacts;">
-            <li> {{ singleContact.name }} - {{ singleContact.address }} </li>
-        </ng-container>
-        </ul>
+
+    <ng-container *ngFor="let singleContact of contacts;">
+        <div class="contact-method">
+            <button>
+                <a href="{{singleContact.address}}">
+                <fa-icon [icon]="singleContact.icon" class="text-green"></fa-icon>
+                <div>{{ singleContact.name }}</div></a></button>
+        </div>
+    </ng-container>
     </div>
 </section>
 
