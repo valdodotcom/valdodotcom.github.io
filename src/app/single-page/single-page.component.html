@@ -10,7 +10,7 @@
                 <a class="nav-item" href="#contact">Contact</a>
             </div>
             <button class="menu-button" *ngIf="getScreenWidth <= 700"
-            (click)="toggleBar()"><fa-icon [icon]="faBars"></fa-icon></button>
+            (click)="toggleBar()"><fa-icon [icon]="faBars" class="text-xl"></fa-icon></button>
     </nav>
     <div *ngIf="getScreenWidth <= 700 && isShowing"
      class="navbar-dropdown flex justify-between">
