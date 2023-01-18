@@ -443,9 +443,9 @@ video {
     padding-bottom: .25rem
 }
 
-.px-20 {
-    padding-left: 5rem;
-    padding-right: 5rem
+.px-3 {
+    padding-left: .75rem;
+    padding-right: .75rem
 }
 
 .px-8 {
@@ -458,6 +458,10 @@ video {
     padding-bottom: .5rem
 }
 
+.pt-3 {
+    padding-top: .75rem
+}
+
 .pt-10 {
     padding-top: 2.5rem
 }
@@ -466,8 +470,8 @@ video {
     padding-bottom: 2.5rem
 }
 
-.pt-3 {
-    padding-top: .75rem
+.pb-3 {
+    padding-bottom: .75rem
 }
 
 .text-center {
@@ -484,15 +488,18 @@ video {
 }
 
 h1 {
-    font-size: 40px
+    font-size: 40px;
+    font-weight: 700
 }
 
 h2 {
-    font-size: 30px
+    font-size: 30px;
+    font-weight: 700
 }
 
 h3 {
-    font-size: 20px
+    font-size: 20px;
+    font-weight: 700
 }
 
 body {
@@ -518,7 +525,7 @@ body {
 }
 
 .box:hover {
-    background-color: #059124
+    background-color: #03501485
 }
 
 @media (min-width: 1024px) {
@@ -530,5 +537,10 @@ body {
     .lg\:px-20 {
         padding-left: 5rem;
         padding-right: 5rem
+    }
+
+    .lg\:px-10 {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem
     }
 }
