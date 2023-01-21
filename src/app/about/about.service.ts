@@ -24,20 +24,20 @@ export class AboutService {
   }
 
   getSkillSet() {
-    return [  
-      { "language": 'Angular', "level": 'Proficient' },  
-      { "language": 'HTML5', "level": 'Proficient' },  
-      { "language": 'CSS3', "level": 'Proficient' },  
-      { "language": 'JavaScript', "level": 'Proficient' },
-      { "language": 'TypeScript', "level": 'Competent' },    
-      { "language": 'Flutter', "level": 'Proficient' },  
-      { "language": 'Flask', "level": 'Competent' },  
-      { "language": 'Python', "level": 'Proficient' },  
-      { "language": 'Arduino', "level": 'Competent' },  
-      { "language": 'C++', "level": 'Familiar' },
-      { "language": 'C', "level": 'Familiar' },  
-      { "language": 'Java', "level": 'Familiar' },
-    ]
+    return [
+      { "language": 'Angular', "level": 'Proficient', "width": "95%" },
+      { "language": 'HTML5', "level": 'Proficient', "width": "95%" },
+      { "language": 'CSS3', "level": 'Proficient', "width": "95%" },
+      { "language": 'JavaScript', "level": 'Proficient', "width": "90%" },
+      { "language": 'TypeScript', "level": 'Competent', "width": "70%" },
+      { "language": 'Flutter', "level": 'Proficient', "width": "90%" },
+      { "language": 'Flask', "level": 'Competent', "width": "70%" },
+      { "language": 'Python', "level": 'Proficient', "width": "90%" },
+      { "language": 'Arduino', "level": 'Competent', "width": "70%" },
+      { "language": 'C++', "level": 'Familiar', "width": "50%" },
+      { "language": 'C', "level": 'Familiar', "width": "50%" },
+      { "language": 'Java', "level": 'Familiar', "width": "50%" },
+      ]
   }
 
   // getSkillSet() {

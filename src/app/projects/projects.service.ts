@@ -105,7 +105,7 @@ export class ProjectsService {
         "category": "Problem Solving",
         "stack": ["Python"],
         "description": `A script designed for a Modbus 
-        temperature-humidity sensor with unknown connection parameters, 
+        device with unknown connection parameters, 
         i.e. baud rate, data bits, parity, and stop bits. It loops through all the 
         possible combinations of the parameters until the right match is found.`,
         "image": "link",
