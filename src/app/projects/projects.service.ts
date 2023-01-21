@@ -7,6 +7,8 @@ export class ProjectsService {
 
   constructor() { }
 
+  digitTHEFTSecondPic = ['https://drive.google.com/uc?export=view&id=1xNiP-ljBS7_o6kRF_3WEvDozrPyjcVdf']
+
   getProjects() {
     return [
       {
@@ -15,7 +17,7 @@ export class ProjectsService {
         "stack": ["Angular", "HTML", "CSS", "TypeScrript"],
         "description": `A web application that serves as a collection of projects, skills, and 
         experience showcasing abilities and qualifications to potential employers or clients.`,
-        "image": "link",
+        "image": "https://drive.google.com/uc?export=view&id=1nS1zGP9LGNXoE4wIa2mGWIDgXIzSWvyV",
         "repo": "link",
         "demo": "link"  
       },
@@ -24,9 +26,9 @@ export class ProjectsService {
         "name": "Cook Book",
         "category": "Web Development",
         "stack": ["HTML", "CSS"],
-        "description": `A straightforward webpage that displays a variety 
+        "description": `A webpage that displays a variety 
         of meals along with their corresponding recipes for easy access and reference.`,
-        "image": "link",
+        "image": "https://drive.google.com/uc?export=view&id=16K9sOoh0Txu_nTKBpygbJh-SFiwCil-T",
         "repo": "link",
         "demo": "link"       
       },
@@ -37,7 +39,7 @@ export class ProjectsService {
         "stack": ["HTML", "CSS"],
         "description": `A webpage specifically designed to promote 
         and market a specific product or service.`,
-        "image": "link",
+        "image": "https://drive.google.com/uc?export=view&id=127N6C2V1UcXpLnnDenbOqRxBV4h4ZP5S",
         "repo": "link",
         "demo": "link"  
       },
@@ -48,7 +50,7 @@ export class ProjectsService {
         "stack": ["HTML", "CSS"],
         "description": `A series of questions or statements 
         that are designed to gather specific data or feedback.`,
-        "image": "link",
+        "image": "https://drive.google.com/uc?export=view&id=1b3M3ErplvQMcUV4kcTV9RnwIt-ucbADT",
         "repo": "link",
         "demo": "link"  
       },
@@ -58,7 +60,7 @@ export class ProjectsService {
         "category": "Web Development",
         "stack": ["HTML", "CSS"],
         "description": `A webpage to honor or remember a person, group, or organization.`,
-        "image": "link",
+        "image": "https://drive.google.com/uc?export=view&id=1dRCx6DtjuDJ2AICPVaWT7Vkcq8MI53Kx",
         "repo": "link",
         "demo": "link"
       },
@@ -72,7 +74,7 @@ export class ProjectsService {
         identifying books, as well as the software for managing the detection 
         status of borrowed and returned books. The system also includes a 
         comprehensive database for efficient management of the library's inventory.`,
-        "image": "link",
+        "image": "https://drive.google.com/uc?export=view&id=1tD905xCWe4BJ1zq1zKwF4l4le9WUeOHA",
         "repo": "link",
         "demo": "link" 
       },
@@ -84,7 +86,7 @@ export class ProjectsService {
         "description": `A marketplace platform designed to empower 
         small-scale businesses and social media-based entrepreneurs to effectively 
         advertise and sell their products.`,
-        "image": "link",
+        "image": "https://drive.google.com/uc?export=view&id=1nab1Jb1olTSwV4DoM3sSRa9wTiAQqy5Z",
         "repo": "link",
         "demo": "link" 
       },
@@ -95,7 +97,7 @@ export class ProjectsService {
         "stack": ["JavaScript"],
         "description": `A function that returns differences between two 
         arrays of objects, i.e. additions, removals, and changes in object status.`,
-        "image": "link",
+        "image": "https://drive.google.com/uc?export=view&id=1jKgxoyOOuxuW35175dqoDMnS1emhgqvM",
         "repo": "link",
         "demo": "link" 
       },
@@ -108,7 +110,7 @@ export class ProjectsService {
         device with unknown connection parameters, 
         i.e. baud rate, data bits, parity, and stop bits. It loops through all the 
         possible combinations of the parameters until the right match is found.`,
-        "image": "link",
+        "image": "https://drive.google.com/uc?export=view&id=1SmpHzo_7b-ReAtVZIhjUj3tqx-nGKQ2R",
         "repo": "link",
         "demo": "link" 
       },
@@ -117,9 +119,8 @@ export class ProjectsService {
         "name": "More Problem Solving Projects",
         "category": "Problem Solving",
         "stack": ["JavaScript", "Python"],
-        "description": `Click on the link to see more of my problem solving projects 
-        on Codewars.`,
-        "image": "link",
+        "description": `See more of my problem solving projects on Codewars.`,
+        "image": "https://i.imgur.com/LKAcLYO.png",
         "repo": "link",
         "demo": "link" 
       }
