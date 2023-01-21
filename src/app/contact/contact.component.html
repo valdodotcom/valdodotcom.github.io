@@ -6,12 +6,20 @@
     </div>
     <div>
 
-    <ng-container *ngFor="let singleContact of contacts;">
+    <ng-container *ngFor="let singleContact of contacts | slice:0:-2;">
         <div class="contact-method">
             <button>
                 <a href="{{singleContact.address}}">
                 <fa-icon [icon]="singleContact.icon" class="text-green"></fa-icon>
-                <div>{{ singleContact.name }}</div></a></button>
+                <div>{{ singleContact.name }}</div></a>
+            </button>
+        </div>
+    </ng-container>
+    
+    <ng-container *ngFor="let singleContact of contacts | slice:-2;">
+        <div class="contact-method">
+                <fa-icon [icon]="singleContact.icon" class="text-green"></fa-icon>
+                <div>{{ singleContact.name }}</div>
         </div>
     </ng-container>
     </div>
