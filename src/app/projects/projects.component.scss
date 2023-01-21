@@ -13,3 +13,28 @@ div {
     height: 50%;
     object-fit: contain;
   }
+
+.box button {
+    padding: 1px 20px 2px 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: solid 1px #05912422;
+    transition: all 0.3s ease-in-out;
+    // color: #ffffffee;
+}
+
+.box button:first-child {
+float: left;
+
+}
+
+.box button:last-child {
+float: right;
+}
+
+.box button:hover {
+    background-color: #00000085;
+    color: white;
+}
