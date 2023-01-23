@@ -380,6 +380,10 @@ video {
     margin-bottom: .5rem
 }
 
+.mt-4 {
+    margin-top: 1rem
+}
+
 .ml-auto {
     margin-left: auto
 }
@@ -474,8 +478,12 @@ video {
     padding-top: 2.5rem
 }
 
-.pb-10 {
-    padding-bottom: 2.5rem
+.pb-2 {
+    padding-bottom: .5rem
+}
+
+.pb-4 {
+    padding-bottom: 1rem
 }
 
 .pb-3 {
@@ -493,6 +501,11 @@ video {
 .text-xs {
     font-size: .75rem;
     line-height: 1rem
+}
+
+.text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem
 }
 
 .text-xl {

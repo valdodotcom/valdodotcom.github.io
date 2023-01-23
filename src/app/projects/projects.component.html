@@ -7,12 +7,41 @@
     
 
         <div class="grid grid-cols-3">
-            <ng-container *ngFor="let singleProject of projects; let i = index">
-                <div [ngStyle]="{'grid-column': (i % 3) + 1 }" class="box">
+            <ng-container *ngFor="let singleProject of projects | slice:0:-7; let i = index">
+                <div [ngStyle]="{'grid-column': (i % 3) + 1 }" class="box box-lr button-vis">
+                    <h3 class="pt-10">{{ singleProject.name }}</h3>
+                    <img [src]="singleProject.image" [alt]="singleProject.name" class="project-image pt-3">
+                    <p class="px-3 lg:px-10 pb-2 pt-3">{{ singleProject.description }}</p>
+                    <div class="pb-4">
+                        <a [href]="singleProject.demo">
+                            <button data-title="View Demo" class="text-xs">
+                                <fa-icon [icon]="playButton" class="text-lg"></fa-icon> 
+                             </button>
+                        </a>
+                        
+                        <a [href]="singleProject.repo">
+                            <button data-title="View Repo" class="text-xs" onclick="location.href= singleProject.repo" type="button">
+                                <fa-icon [icon]="githubLogo" class="text-lg"></fa-icon>
+                             </button>
+                        </a>
+                    </div>
+                </div>
+            </ng-container>
+
+        </div>
+
+        <div class="grid grid-cols-3">
+            <ng-container *ngFor="let singleProject of projects | slice:-7:-1; let i = index">
+                <div [ngStyle]="{'grid-column': (i % 3) + 1 }" class="box box-c button-vis">
                     <h3 class="pt-10">{{ singleProject.name }}</h3>
                     <img [src]="singleProject.image" [alt]="singleProject.name" class="project-image pt-3">
                      <p class="px-3 lg:px-10 pb-2 pt-3">{{ singleProject.description }}</p>
-                     <div class="pb-4 text-sm"><button>demo</button><button>view repo</button></div>
+                     <div class="pb-4">
+                        <a [href]="singleProject.repo">
+                        <button data-title="View Repo" class="text-xs mt-4">
+                        <fa-icon [icon]="githubLogo" class="text-lg"></fa-icon>
+                     </button>
+                    </a></div>
                 </div>
             </ng-container>
         </div>

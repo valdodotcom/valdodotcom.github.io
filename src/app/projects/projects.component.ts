@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { Project } from '../types/Project';
 import { ProjectsService } from './projects.service';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faPlayCircle } from '@fortawesome/free-regular-svg-icons';
+
 
 @Component({
   selector: 'app-projects',
@@ -8,6 +11,9 @@ import { ProjectsService } from './projects.service';
   styleUrls: ['./projects.component.scss']
 })
 export class ProjectsComponent implements OnInit {
+
+  githubLogo = faGithub;
+  playButton = faPlayCircle;
 
   constructor(private ProjectsService: ProjectsService) { }
 

@@ -12,17 +12,6 @@ export class ProjectsService {
   getProjects() {
     return [
       {
-        "name": "My Portfolio (this website!)",
-        "category": "Web Development",
-        "stack": ["Angular", "HTML", "CSS", "TypeScrript"],
-        "description": `A web application that serves as a collection of projects, skills, and 
-        experience showcasing abilities and qualifications to potential employers or clients.`,
-        "image": "https://drive.google.com/uc?export=view&id=1nS1zGP9LGNXoE4wIa2mGWIDgXIzSWvyV",
-        "repo": "link",
-        "demo": "link"  
-      },
-
-      {
         "name": "Cook Book",
         "category": "Web Development",
         "stack": ["HTML", "CSS"],
@@ -30,7 +19,7 @@ export class ProjectsService {
         of meals along with their corresponding recipes for easy access and reference.`,
         "image": "https://drive.google.com/uc?export=view&id=16K9sOoh0Txu_nTKBpygbJh-SFiwCil-T",
         "repo": "link",
-        "demo": "link"       
+        "demo": "https://codepen.io/valdodotcom/full/VwaOEKQ"       
       },
 
       {
@@ -41,7 +30,7 @@ export class ProjectsService {
         and market a specific product or service.`,
         "image": "https://drive.google.com/uc?export=view&id=127N6C2V1UcXpLnnDenbOqRxBV4h4ZP5S",
         "repo": "link",
-        "demo": "link"  
+        "demo": "https://codepen.io/valdodotcom/full/QWNzprK"  
       },
 
       {
@@ -52,7 +41,7 @@ export class ProjectsService {
         that are designed to gather specific data or feedback.`,
         "image": "https://drive.google.com/uc?export=view&id=1b3M3ErplvQMcUV4kcTV9RnwIt-ucbADT",
         "repo": "link",
-        "demo": "link"  
+        "demo": "https://codepen.io/valdodotcom/full/MWyzzaN"  
       },
 
       {
@@ -66,6 +55,17 @@ export class ProjectsService {
       },
 
       {
+        "name": "My Portfolio (this website!)",
+        "category": "Web Development",
+        "stack": ["Angular", "HTML", "CSS", "TypeScrript"],
+        "description": `A web application that serves as a collection of projects, skills, and 
+        experience showcasing abilities and qualifications to potential employers or clients.`,
+        "image": "https://drive.google.com/uc?export=view&id=1nS1zGP9LGNXoE4wIa2mGWIDgXIzSWvyV",
+        "repo": "https://github.com/valdodotcom/valdodotcom.github.io",
+        "demo": "link"  
+      },
+
+      {
         "name": "digiTHEFT",
         "category": "Windows OS Development",
         "stack": ["Flutter", "Flask", "Arduino"],
@@ -75,7 +75,7 @@ export class ProjectsService {
         status of borrowed and returned books. The system also includes a 
         comprehensive database for efficient management of the library's inventory.`,
         "image": "https://drive.google.com/uc?export=view&id=1tD905xCWe4BJ1zq1zKwF4l4le9WUeOHA",
-        "repo": "link",
+        "repo": "https://github.com/direntwi/digiTHEFT",
         "demo": "link" 
       },
 
@@ -87,7 +87,7 @@ export class ProjectsService {
         small-scale businesses and social media-based entrepreneurs to effectively 
         advertise and sell their products.`,
         "image": "https://drive.google.com/uc?export=view&id=1nab1Jb1olTSwV4DoM3sSRa9wTiAQqy5Z",
-        "repo": "link",
+        "repo": "https://github.com/valdodotcom/COE356-VorTech",
         "demo": "link" 
       },
       
@@ -98,7 +98,7 @@ export class ProjectsService {
         "description": `A function that returns differences between two 
         arrays of objects, i.e. additions, removals, and changes in object status.`,
         "image": "https://drive.google.com/uc?export=view&id=1jKgxoyOOuxuW35175dqoDMnS1emhgqvM",
-        "repo": "link",
+        "repo": "https://github.com/valdodotcom/json_difference_checker",
         "demo": "link" 
       },
 
@@ -111,7 +111,7 @@ export class ProjectsService {
         i.e. baud rate, data bits, parity, and stop bits. It loops through all the 
         possible combinations of the parameters until the right match is found.`,
         "image": "https://drive.google.com/uc?export=view&id=1SmpHzo_7b-ReAtVZIhjUj3tqx-nGKQ2R",
-        "repo": "link",
+        "repo": "https://github.com/valdodotcom/modbus-register-reader",
         "demo": "link" 
       },
 

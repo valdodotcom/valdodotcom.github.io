@@ -2,10 +2,6 @@ div {
     padding: 10px;
 }
 
-.box:hover {
-    padding: 3%;
-}
-
 .project-image{
     display: block;
     margin: 0 auto;
@@ -13,6 +9,10 @@ div {
     height: 50%;
     object-fit: contain;
   }
+
+.box:hover {
+    padding: 3%;
+}
 
 .box button {
     padding: 1px 20px 2px 20px;
@@ -22,19 +22,69 @@ div {
     border-radius: 20px;
     border: solid 1px #05912422;
     transition: all 0.3s ease-in-out;
-    // color: #ffffffee;
+    background-color: #030e06;
 }
 
-.box button:first-child {
-float: left;
-
+.box-lr fa-icon:first-child {
+    float: left;
 }
 
-.box button:last-child {
-float: right;
+.box-lr fa-icon:last-child {
+    float: right;
 }
 
 .box button:hover {
     background-color: #00000085;
     color: white;
 }
+
+.button-vis button {
+    color: #059124;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.25s ease;
+  }
+
+  .button-vis:hover button {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s, opacity 0.25s ease;
+  }
+
+
+  // tooltip
+
+  .button-vis button {
+    position: relative;
+    display: inline-block;
+  }
+
+  .button-vis button fa-icon {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .button-vis button:hover::after {
+    position: absolute;
+    content: attr(data-title);
+    left: 0;
+    top: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: .2rem .4rem;
+    border-radius: .3rem;
+    white-space: nowrap;
+    z-index: 1;
+    opacity: 0;
+    transition: .3s;
+  }
+  
+  .button-vis button:hover::after {
+    opacity: 1;
+  }
+  
+  .button-vis button[data-title]:hover::after {
+    content: attr(data-title);
+  }
+
+  // end of tooltip
