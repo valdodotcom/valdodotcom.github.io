@@ -41,6 +41,6 @@ body {
     border-color: #05912422;
     transition: all 0.5s ease;
 }
-.box:hover {
+.box:hover, .box:active {
   background-color: #03501485;
   }
