@@ -9,7 +9,6 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   declarations: [ContactComponent],
   providers: [ContactService],
   imports: [CommonModule, FontAwesomeModule],
-  exports: [ContactComponent],
-
+  exports: [ContactComponent]
 })
 export class ContactModule { }
