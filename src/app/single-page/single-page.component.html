@@ -1,5 +1,5 @@
 <section>
-    <nav class="flex p-6 bg-my-green">
+    <nav class="flex bg-my-green nav-bar">
         <!-- <p class="px-8">valdodotcom</p> -->
         <a class="px-8" href="#home">valdodotcom</a>
             <div class="px-8 ml-auto">
@@ -10,12 +10,12 @@
                 <a class="nav-item" href="#contact">Contact</a>
             </div>
             <button class="menu-button" *ngIf="getScreenWidth <= 700"
-            (click)="toggleBar()">Menu</button>
+            (click)="toggleBar()"><fa-icon [icon]="faBars" class="text-xl"></fa-icon></button>
     </nav>
     <div *ngIf="getScreenWidth <= 700 && isShowing"
      class="navbar-dropdown flex justify-between">
         <a class="nav-drop-item" href="#about">About</a>
-        <a class="nav-drop-item" href="#skills">Skills</a>
+        <a class="nav-drop-item" href="#services">Services</a>
         <a class="nav-drop-item" href="#projects">Projects</a>
         <a class="nav-drop-item" href="#contact">Contact</a>
       </div>

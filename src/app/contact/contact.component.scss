@@ -1,0 +1,28 @@
+
+fa-icon {
+    font-size: 40px;
+    color: #059124;
+}
+
+
+
+.contact-method {
+    width: 150px;
+    height: 120px;
+    display: inline-grid;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: smaller;
+    color: #ffffffaa;
+    padding: 15px 10px;
+    border-radius: 10px;
+
+
+    transition: all 0.3s ease-in;
+}
+    .contact-method:hover {
+        margin-left: 23px;
+        margin-right: 23px;
+        background-color: #03501485;
+        color: white;
+    }

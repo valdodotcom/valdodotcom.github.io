@@ -2,3 +2,38 @@
     display: grid;
     // grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
+  .grid {
+    display: grid;
+    // grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .progress-bar {
+    background: #95959522;
+    width: auto;
+    height: 5px;
+    border-radius: 5px;
+    }
+    .value{
+    height: 5px;
+    border-radius: 5px;
+    // width: 90%;
+    background: #059124;
+    }
+    // .progress-bar div span {
+    // height: 40px;
+    // width: 40px;
+    // border-radius: 50%;
+    // background: #FFF;
+    // float: right;
+    // }
+    @media (max-width: 1024px) {
+      .grid {
+       display: flex;
+       flex-wrap: nowrap;
+       flex-direction: column;
+      }
+    }
+
+    .box:hover {
+      padding: 6px;
+    }

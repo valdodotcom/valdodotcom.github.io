@@ -11,8 +11,9 @@
         <div class="grid grid-cols-3">
             <ng-container *ngFor="let singleService of services; let i = index">
                 <div [ngStyle]="{'grid-column': (i % 3) + 1 }" class="p-10 box serv">
-                    <h3>{{ singleService.name }}</h3>
-                     <p class="py-2 px-10">{{ singleService.description }}</p></div>
+                    <h3 class="pb-3">{{ singleService.name }}</h3>
+                    <fa-icon [icon]="singleService.icon"></fa-icon>
+                     <p class="py-2">{{ singleService.description }}</p></div>
             </ng-container>
         
 </div>

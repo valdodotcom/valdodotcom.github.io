@@ -1,4 +1,5 @@
 import { Component, OnInit, HostListener } from '@angular/core';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-single-page',
@@ -6,6 +7,8 @@ import { Component, OnInit, HostListener } from '@angular/core';
   styleUrls: ['./single-page.component.scss']
 })
 export class SinglePageComponent implements OnInit {
+
+  faBars = faBars;
 
   public getScreenWidth: any;
   public getScreenHeight: any;

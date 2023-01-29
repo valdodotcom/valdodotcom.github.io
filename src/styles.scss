@@ -4,14 +4,17 @@
 
 h1 {
     font-size: 40px;
+    font-weight: bold;
 }
 
 h2 {
     font-size: 30px;
+    font-weight: bold;
 }
 
 h3 {
     font-size: 20px;
+    font-weight: bold;
 }
 
 body {
@@ -38,6 +41,6 @@ body {
     border-color: #05912422;
     transition: all 0.5s ease;
 }
-.box:hover {
-    background-color: #059124;
+.box:hover, .box:active {
+  background-color: #03501485;
   }

@@ -372,6 +372,18 @@ video {
     --tw-backdrop-sepia:
 }
 
+.mt-3 {
+    margin-top: .75rem
+}
+
+.mb-2 {
+    margin-bottom: .5rem
+}
+
+.mt-4 {
+    margin-top: 1rem
+}
+
 .ml-auto {
     margin-left: auto
 }
@@ -405,12 +417,12 @@ video {
     padding: 2.5rem
 }
 
-.p-3 {
-    padding: .75rem
+.p-5 {
+    padding: 1.25rem
 }
 
-.p-6 {
-    padding: 1.5rem
+.p-3 {
+    padding: .75rem
 }
 
 .px-10 {
@@ -443,9 +455,9 @@ video {
     padding-bottom: .25rem
 }
 
-.px-20 {
-    padding-left: 5rem;
-    padding-right: 5rem
+.px-3 {
+    padding-left: .75rem;
+    padding-right: .75rem
 }
 
 .px-8 {
@@ -462,16 +474,43 @@ video {
     padding-top: 2.5rem
 }
 
-.pb-10 {
-    padding-bottom: 2.5rem
-}
-
 .pt-3 {
     padding-top: .75rem
 }
 
+.pb-2 {
+    padding-bottom: .5rem
+}
+
+.pb-4 {
+    padding-bottom: 1rem
+}
+
+.pb-3 {
+    padding-bottom: .75rem
+}
+
 .text-center {
     text-align: center
+}
+
+.text-right {
+    text-align: right
+}
+
+.text-xs {
+    font-size: .75rem;
+    line-height: 1rem
+}
+
+.text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem
+}
+
+.text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem
 }
 
 .text-gray-500 {
@@ -479,20 +518,19 @@ video {
     color: rgb(107 114 128 / var(--tw-text-opacity))
 }
 
-.filter {
-    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)
-}
-
 h1 {
-    font-size: 40px
+    font-size: 40px;
+    font-weight: 700
 }
 
 h2 {
-    font-size: 30px
+    font-size: 30px;
+    font-weight: 700
 }
 
 h3 {
-    font-size: 20px
+    font-size: 20px;
+    font-weight: 700
 }
 
 body {
@@ -517,8 +555,9 @@ body {
     transition: all .5s ease
 }
 
-.box:hover {
-    background-color: #059124
+.box:hover,
+.box:active {
+    background-color: #03501485
 }
 
 @media (min-width: 1024px) {
@@ -530,5 +569,10 @@ body {
     .lg\:px-20 {
         padding-left: 5rem;
         padding-right: 5rem
+    }
+
+    .lg\:px-10 {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem
     }
 }
