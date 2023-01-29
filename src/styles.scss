@@ -1,6 +1,7 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+@import 'bootstrap/scss/bootstrap';
 
 h1 {
     font-size: 40px;
@@ -22,7 +23,18 @@ body {
     color: white;
     // padding: 10px;
   }
-  
+
+
+a:link { text-decoration: none; color: white; }
+
+
+a:visited { text-decoration: none; color: white; }
+
+
+a:hover { text-decoration: none; color: white; }
+
+
+a:active { text-decoration: none; color: white; }
 
   @media (max-width: 1024px) {
     .grid {
