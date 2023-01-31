@@ -16,6 +16,7 @@ import { ContactModule } from './contact/contact.module';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { GalleryComponent } from './gallery/gallery.component';
+import { GalleryModule } from './gallery/gallery.module';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,7 @@ import { GalleryComponent } from './gallery/gallery.component';
     // SkillsComponent,
     // ProjectsComponent,
     SinglePageComponent,
-    GalleryComponent
+    // GalleryComponent
   ],
   imports: [
     BrowserModule,
@@ -35,6 +36,7 @@ import { GalleryComponent } from './gallery/gallery.component';
     SkillsModule,
     ProjectsModule,
     ContactModule,
+    GalleryModule,
     FontAwesomeModule,
     NgbModule
   ],
