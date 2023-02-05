@@ -18,6 +18,8 @@ export class ProjectsService {
         "description": `A webpage that displays a variety 
         of meals along with their corresponding recipes for easy access and reference.`,
         "image": "https://drive.google.com/uc?export=view&id=16K9sOoh0Txu_nTKBpygbJh-SFiwCil-T",
+        "additionalImage1": "https://drive.google.com/uc?export=view&id=16K9sOoh0Txu_nTKBpygbJh-SFiwCil-T",
+        "additionalImage2": "https://drive.google.com/uc?export=view&id=16K9sOoh0Txu_nTKBpygbJh-SFiwCil-T",
         "repo": "link",
         "demo": "https://codepen.io/valdodotcom/full/VwaOEKQ"       
       },
@@ -29,6 +31,8 @@ export class ProjectsService {
         "description": `A webpage specifically designed to promote 
         and market a specific product or service.`,
         "image": "https://drive.google.com/uc?export=view&id=127N6C2V1UcXpLnnDenbOqRxBV4h4ZP5S",
+        "additionalImage1": "https://drive.google.com/uc?export=view&id=16K9sOoh0Txu_nTKBpygbJh-SFiwCil-T",
+        "additionalImage2": "https://drive.google.com/uc?export=view&id=16K9sOoh0Txu_nTKBpygbJh-SFiwCil-T",
         "repo": "link",
         "demo": "https://codepen.io/valdodotcom/full/QWNzprK"  
       },
@@ -40,6 +44,8 @@ export class ProjectsService {
         "description": `A series of questions or statements 
         that are designed to gather specific data or feedback.`,
         "image": "https://drive.google.com/uc?export=view&id=1b3M3ErplvQMcUV4kcTV9RnwIt-ucbADT",
+        "additionalImage1": "https://drive.google.com/uc?export=view&id=16K9sOoh0Txu_nTKBpygbJh-SFiwCil-T",
+        "additionalImage2": "https://drive.google.com/uc?export=view&id=16K9sOoh0Txu_nTKBpygbJh-SFiwCil-T",
         "repo": "link",
         "demo": "https://codepen.io/valdodotcom/full/MWyzzaN"  
       },
@@ -50,6 +56,8 @@ export class ProjectsService {
         "stack": ["HTML", "CSS"],
         "description": `A webpage to honor or remember a person, group, or organization.`,
         "image": "https://drive.google.com/uc?export=view&id=1dRCx6DtjuDJ2AICPVaWT7Vkcq8MI53Kx",
+        "additionalImage1": "https://drive.google.com/uc?export=view&id=16K9sOoh0Txu_nTKBpygbJh-SFiwCil-T",
+        "additionalImage2": "https://drive.google.com/uc?export=view&id=16K9sOoh0Txu_nTKBpygbJh-SFiwCil-T",
         "repo": "link",
         "demo": "link"
       },
@@ -61,6 +69,8 @@ export class ProjectsService {
         "description": `A web application that serves as a collection of projects, skills, and 
         experience showcasing abilities and qualifications to potential employers or clients.`,
         "image": "https://drive.google.com/uc?export=view&id=1nS1zGP9LGNXoE4wIa2mGWIDgXIzSWvyV",
+        "additionalImage1": "https://drive.google.com/uc?export=view&id=16K9sOoh0Txu_nTKBpygbJh-SFiwCil-T",
+        "additionalImage2": "https://drive.google.com/uc?export=view&id=16K9sOoh0Txu_nTKBpygbJh-SFiwCil-T",
         "repo": "https://github.com/valdodotcom/valdodotcom.github.io",
         "demo": "link"  
       },
@@ -75,6 +85,8 @@ export class ProjectsService {
         status of borrowed and returned books. The system also includes a 
         comprehensive database for efficient management of the library's inventory.`,
         "image": "https://drive.google.com/uc?export=view&id=1tD905xCWe4BJ1zq1zKwF4l4le9WUeOHA",
+        "additionalImage1": "https://drive.google.com/uc?export=view&id=16K9sOoh0Txu_nTKBpygbJh-SFiwCil-T",
+        "additionalImage2": "https://drive.google.com/uc?export=view&id=16K9sOoh0Txu_nTKBpygbJh-SFiwCil-T",
         "repo": "https://github.com/direntwi/digiTHEFT",
         "demo": "link" 
       },
@@ -87,6 +99,8 @@ export class ProjectsService {
         small-scale businesses and social media-based entrepreneurs to effectively 
         advertise and sell their products.`,
         "image": "https://drive.google.com/uc?export=view&id=1nab1Jb1olTSwV4DoM3sSRa9wTiAQqy5Z",
+        "additionalImage1": "https://drive.google.com/uc?export=view&id=16K9sOoh0Txu_nTKBpygbJh-SFiwCil-T",
+        "additionalImage2": "https://drive.google.com/uc?export=view&id=16K9sOoh0Txu_nTKBpygbJh-SFiwCil-T",
         "repo": "https://github.com/valdodotcom/COE356-VorTech",
         "demo": "link" 
       },
@@ -98,6 +112,8 @@ export class ProjectsService {
         "description": `A function that returns differences between two 
         arrays of objects, i.e. additions, removals, and changes in object status.`,
         "image": "https://drive.google.com/uc?export=view&id=1jKgxoyOOuxuW35175dqoDMnS1emhgqvM",
+        "additionalImage1": "https://drive.google.com/uc?export=view&id=16K9sOoh0Txu_nTKBpygbJh-SFiwCil-T",
+        "additionalImage2": "https://drive.google.com/uc?export=view&id=16K9sOoh0Txu_nTKBpygbJh-SFiwCil-T",
         "repo": "https://github.com/valdodotcom/json_difference_checker",
         "demo": "link" 
       },
@@ -111,6 +127,8 @@ export class ProjectsService {
         i.e. baud rate, data bits, parity, and stop bits. It loops through all the 
         possible combinations of the parameters until the right match is found.`,
         "image": "https://drive.google.com/uc?export=view&id=1SmpHzo_7b-ReAtVZIhjUj3tqx-nGKQ2R",
+        "additionalImage1": "https://drive.google.com/uc?export=view&id=16K9sOoh0Txu_nTKBpygbJh-SFiwCil-T",
+        "additionalImage2": "https://drive.google.com/uc?export=view&id=16K9sOoh0Txu_nTKBpygbJh-SFiwCil-T",
         "repo": "https://github.com/valdodotcom/modbus-register-reader",
         "demo": "link" 
       },
@@ -121,6 +139,8 @@ export class ProjectsService {
         "stack": ["JavaScript", "Python"],
         "description": `See more of my problem solving projects on Codewars.`,
         "image": "https://i.imgur.com/LKAcLYO.png",
+        "additionalImage1": "https://drive.google.com/uc?export=view&id=16K9sOoh0Txu_nTKBpygbJh-SFiwCil-T",
+        "additionalImage2": "https://drive.google.com/uc?export=view&id=16K9sOoh0Txu_nTKBpygbJh-SFiwCil-T",
         "repo": "link",
         "demo": "link" 
       }

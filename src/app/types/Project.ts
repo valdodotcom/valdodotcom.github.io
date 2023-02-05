@@ -4,6 +4,8 @@ export interface Project {
     category: string;
     stack: string[];
     image: string;
+    additionalImage1: string;
+    additionalImage2: string;
     repo: string;
     demo: string;
 }
