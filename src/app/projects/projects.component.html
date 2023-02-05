@@ -1,22 +1,10 @@
-<section id="projects" class="px-10 lg:px-20 py-10 text-center">
+<section id="projects" class="px-10 lg:px-20 py-10 text-center" [ngClass]="{'popup-active': showPopup}">
     <div class="py-5 text-center">
         <h2>Portfolio</h2>
     <p class="p-3">Some projects I have worked on that 
         highlight my skills in different applications:</p>
     </div>
 
-    <section>
-        <div class="popup" *ngIf="showPopup">
-            <h3>{{selectedProject.name}}</h3>
-            <img [src]="selectedProject.images[currentImageIndex]" [alt]="selectedProject.name">
-            <div class="navigation-buttons">
-              <button *ngIf="currentImageIndex > 0" (click)="currentImageIndex=currentImageIndex-1">Previous</button>
-              <button *ngIf="currentImageIndex < selectedProject.images.length - 1" (click)="currentImageIndex=currentImageIndex+1">Next</button>
-            </div>
-            <p>{{currentImageIndex+1}}/{{selectedProject.images.length}}</p>
-            <button (click)="showPopup = false">Close</button>
-          </div>
-    </section>    
 
         <div class="grid grid-cols-3">
             <ng-container *ngFor="let singleProject of projects | slice:0:-7; let i = index">
@@ -61,4 +49,23 @@
                 </div>
             </ng-container>
         </div>
+</section>
+
+<section class="px-10 lg:px-20 py-10 text-center">
+    <div class="popup" *ngIf="showPopup">
+        <h3>{{selectedProject.name}}</h3>
+        <img class="p-2" [src]="selectedProject.images[currentImageIndex]" [alt]="selectedProject.name">
+        <div class="navigation-buttons">
+          <button (click)="currentImageIndex=currentImageIndex-1" [disabled]="currentImageIndex == 0">
+            <fa-icon [icon]="leftButton" class="text-lg"></fa-icon>
+          </button>
+          <p>{{currentImageIndex+1}}/{{selectedProject.images.length}}</p>
+          <button (click)="currentImageIndex=currentImageIndex+1" [disabled]="currentImageIndex == selectedProject.images.length - 1">
+            <fa-icon [icon]="rightButton" class="text-lg"></fa-icon>
+          </button>
+        </div>
+        <button (click)="showPopup = false">
+            <fa-icon [icon]="closeButton" class="text-lg close-button"></fa-icon>
+        </button>
+      </div>
 </section>
