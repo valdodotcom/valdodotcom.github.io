@@ -4,14 +4,26 @@
     <p class="p-3">Some projects I have worked on that 
         highlight my skills in different applications:</p>
     </div>
-    
+
+    <section>
+        <div class="popup" *ngIf="showPopup">
+            <h3>{{selectedProject.name}}</h3>
+            <img [src]="selectedProject.images[currentImageIndex]" [alt]="selectedProject.name">
+            <div class="navigation-buttons">
+              <button *ngIf="currentImageIndex > 0" (click)="currentImageIndex=currentImageIndex-1">Previous</button>
+              <button *ngIf="currentImageIndex < selectedProject.images.length - 1" (click)="currentImageIndex=currentImageIndex+1">Next</button>
+            </div>
+            <p>{{currentImageIndex+1}}/{{selectedProject.images.length}}</p>
+            <button (click)="showPopup = false">Close</button>
+          </div>
+    </section>    
 
         <div class="grid grid-cols-3">
             <ng-container *ngFor="let singleProject of projects | slice:0:-7; let i = index">
                 <div [ngStyle]="{'grid-column': (i % 3) + 1 }" class="box box-lr button-vis">
                     <h3 class="pt-10">{{ singleProject.name }}</h3>
-                    <button>
-                        <img [src]="singleProject.image" [alt]="singleProject.name" class="project-image pt-3">
+                    <button (click)="selectedProject = singleProject; showPopup = true">
+                        <img [src]="singleProject.images[0]" [alt]="singleProject.name" class="project-image pt-3">
                     </button>
                     <p class="px-3 lg:px-10 pb-2 pt-3">{{ singleProject.description }}</p>
                     <div class="pb-4">
@@ -36,8 +48,8 @@
             <ng-container *ngFor="let singleProject of projects | slice:-7:-1; let i = index">
                 <div [ngStyle]="{'grid-column': (i % 3) + 1 }" class="box box-c button-vis">
                     <h3 class="pt-10">{{ singleProject.name }}</h3>
-                    <button>
-                        <img [src]="singleProject.image" [alt]="singleProject.name" class="project-image pt-3">
+                    <button (click)="selectedProject = singleProject; showPopup = true">
+                        <img [src]="singleProject.images[0]" [alt]="singleProject.name" class="project-image pt-3">
                     </button>
                      <p class="px-3 lg:px-10 pb-2 pt-3">{{ singleProject.description }}</p>
                      <div class="pb-4">

@@ -15,6 +15,10 @@ export class ProjectsComponent implements OnInit {
   githubLogo = faGithub;
   playButton = faPlayCircle;
 
+  selectedProject: any;
+  showPopup = false;
+  currentImageIndex = 0;
+
   constructor(private ProjectsService: ProjectsService) { }
 
   projects: Project[] = []

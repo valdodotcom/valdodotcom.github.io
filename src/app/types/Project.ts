@@ -3,9 +3,7 @@ export interface Project {
     description: string;
     category: string;
     stack: string[];
-    image: string;
-    additionalImage1: string;
-    additionalImage2: string;
+    images: string[];
     repo: string;
     demo: string;
 }

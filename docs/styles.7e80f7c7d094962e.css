@@ -12974,7 +12974,7 @@ h3,
 }
 
 body {
-    background-color: #000;
+    background-color: #1e1e1e;
     color: #fff
 }
 
@@ -12995,11 +12995,12 @@ a:active {
 }
 
 .box {
+    background-color: #0000003b;
     margin: 10px;
     height: max-content;
     border-width: 1px;
     border-radius: 10px;
-    border-color: #05912422;
+    border-color: #1e1e1e;
     transition: all .5s ease
 }
 
