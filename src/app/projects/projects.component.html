@@ -1,7 +1,7 @@
 <section id="projects" class="px-10 lg:px-20 py-10 text-center" [ngClass]="{'popup-active': showPopup}">
     <div class="py-5 text-center">
         <h2>Portfolio</h2>
-    <p class="p-3">Some projects I have worked on that 
+    <p class="pt-3">Some projects I have worked on that 
         highlight my skills in different applications:</p>
     </div>
 
@@ -54,7 +54,6 @@
 <section class="px-10 lg:px-20 pt-10 text-center" id="popup">
     <div class="popup" *ngIf="showPopup">
         <h3 class="pt-2 pic-heading">{{selectedProject.name}}</h3>
-        <!-- <div class="navigation-buttons"> -->
             <div class="arrange">
                 <button class="left-button" (click)="currentImageIndex=currentImageIndex-1" [disabled]="currentImageIndex == 0">
                     <fa-icon [icon]="leftButton" class="text-lg"></fa-icon>
@@ -64,8 +63,6 @@
                     <fa-icon [icon]="rightButton" class="text-lg"></fa-icon>
                   </button>
             </div>
-
-        <!-- </div> -->
 
           <p class="text-xs pic-num">{{currentImageIndex+1}}/{{selectedProject.images.length}}</p>
 

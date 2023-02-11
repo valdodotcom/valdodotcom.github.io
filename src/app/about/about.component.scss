@@ -39,3 +39,10 @@
       // padding: 6px;
       margin: 8px;
     }
+
+    @media screen and (max-width: 700px) {
+      h2 {
+        padding-top: 80px;
+      }
+    }
+    
