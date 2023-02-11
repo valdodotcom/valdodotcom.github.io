@@ -116,6 +116,7 @@ div {
   }
   
   .popup img {
+    padding: 0px 30px;
     margin-top: 30px;
     margin-left: 3%;
     width: 90%;
@@ -137,7 +138,7 @@ div {
 
   .left-button {
     position: absolute;
-    top: 280px;
+    top: 40vh;
     left: 15px;
     padding: 20px 10px;
     border-radius: 10px;
@@ -145,7 +146,7 @@ div {
 
   .right-button {
     position: absolute;
-    top: 280px;
+    top: 40vh;
     right: 15px;
     padding: 20px 10px;
     border-radius: 10px;
