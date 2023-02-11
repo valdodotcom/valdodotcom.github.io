@@ -51,19 +51,24 @@
         </div>
 </section>
 
-<section class="px-10 lg:px-20 py-10 text-center">
+<section class="px-10 lg:px-20 pt-10 text-center" id="popup">
     <div class="popup" *ngIf="showPopup">
-        <h3>{{selectedProject.name}}</h3>
-        <img class="p-2" [src]="selectedProject.images[currentImageIndex]" [alt]="selectedProject.name">
-        <div class="navigation-buttons">
-          <button (click)="currentImageIndex=currentImageIndex-1" [disabled]="currentImageIndex == 0">
-            <fa-icon [icon]="leftButton" class="text-lg"></fa-icon>
-          </button>
-          <p>{{currentImageIndex+1}}/{{selectedProject.images.length}}</p>
-          <button (click)="currentImageIndex=currentImageIndex+1" [disabled]="currentImageIndex == selectedProject.images.length - 1">
-            <fa-icon [icon]="rightButton" class="text-lg"></fa-icon>
-          </button>
-        </div>
+        <h3 class="pt-2 pic-heading">{{selectedProject.name}}</h3>
+        <!-- <div class="navigation-buttons"> -->
+            <div class="arrange">
+                <button class="left-button" (click)="currentImageIndex=currentImageIndex-1" [disabled]="currentImageIndex == 0">
+                    <fa-icon [icon]="leftButton" class="text-lg"></fa-icon>
+                  </button>
+                <img [src]="selectedProject.images[currentImageIndex]" [alt]="selectedProject.name">
+                <button class="right-button" (click)="currentImageIndex=currentImageIndex+1" [disabled]="currentImageIndex == selectedProject.images.length - 1">
+                    <fa-icon [icon]="rightButton" class="text-lg"></fa-icon>
+                  </button>
+            </div>
+
+        <!-- </div> -->
+
+          <p class="text-xs pic-num">{{currentImageIndex+1}}/{{selectedProject.images.length}}</p>
+
         <button (click)="showPopup = false">
             <fa-icon [icon]="closeButton" class="text-lg close-button"></fa-icon>
         </button>
