@@ -14,6 +14,8 @@ import { faXmark } from '@fortawesome/free-solid-svg-icons';
 })
 export class ProjectsComponent implements OnInit {
 
+  isImageLoaded = false;
+
   githubLogo = faGithub;
   playButton = faPlayCircle;
   rightButton = faChevronRight;

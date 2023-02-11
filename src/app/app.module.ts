@@ -36,7 +36,7 @@ import { GalleryModule } from './gallery/gallery.module';
     SkillsModule,
     ProjectsModule,
     ContactModule,
-    GalleryModule,
+    // GalleryModule,
     FontAwesomeModule,
     NgbModule
   ],

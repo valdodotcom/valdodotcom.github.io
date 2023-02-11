@@ -344,6 +344,22 @@ video {
     --tw-backdrop-sepia:
 }
 
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0
+}
+
+.m-5 {
+    margin: 1.25rem
+}
+
 .mt-3 {
     margin-top: .75rem
 }
@@ -483,6 +499,11 @@ video {
 .text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem
+}
+
+.text-my-green {
+    --tw-text-opacity: 1;
+    color: rgb(5 145 66 / var(--tw-text-opacity))
 }
 
 .text-gray-500 {
