@@ -26,6 +26,12 @@ export class ProjectsComponent implements OnInit {
   showPopup = false;
   currentImageIndex = 0;
 
+  categoryFilter: string = '';
+
+setCategory(category: string) {
+  this.categoryFilter = category;
+}
+
   constructor(private ProjectsService: ProjectsService) { }
 
   projects: Project[] = []

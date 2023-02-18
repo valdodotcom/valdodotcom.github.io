@@ -14,7 +14,7 @@ export class ProjectsService {
       {
         "name": "Cook Book",
         "category": "Web Development",
-        "stack": ["HTML", "CSS"],
+        "stack": ["HTML", " CSS"],
         "description": `A webpage that displays a variety 
         of meals along with their corresponding recipes for easy access and reference.`,
         "images": ["https://drive.google.com/uc?export=view&id=16K9sOoh0Txu_nTKBpygbJh-SFiwCil-T",
@@ -27,7 +27,7 @@ export class ProjectsService {
       {
         "name": "Product Landing Page",
         "category": "Web Development",
-        "stack": ["HTML", "CSS"],
+        "stack": ["HTML", " CSS"],
         "description": `A webpage specifically designed to promote 
         and market a specific product or service.`,
         "images": ["https://drive.google.com/uc?export=view&id=127N6C2V1UcXpLnnDenbOqRxBV4h4ZP5S",
@@ -40,7 +40,7 @@ export class ProjectsService {
       {
         "name": "Survey Form",
         "category": "Web Development",
-        "stack": ["HTML", "CSS"],
+        "stack": ["HTML", " CSS"],
         "description": `A series of questions or statements 
         that are designed to gather specific data or feedback.`,
         "images": ["https://drive.google.com/uc?export=view&id=1b3M3ErplvQMcUV4kcTV9RnwIt-ucbADT",
@@ -53,7 +53,7 @@ export class ProjectsService {
       {
         "name": "Tribute Page",
         "category": "Web Development",
-        "stack": ["HTML", "CSS"],
+        "stack": ["HTML", " CSS"],
         "description": `A webpage to honor or remember a person, group, or organization.`,
         "images": ["https://drive.google.com/uc?export=view&id=1dRCx6DtjuDJ2AICPVaWT7Vkcq8MI53Kx",
         "https://drive.google.com/uc?export=view&id=127N6C2V1UcXpLnnDenbOqRxBV4h4ZP5S",
@@ -65,7 +65,7 @@ export class ProjectsService {
       {
         "name": "My Portfolio (this website!)",
         "category": "Web Development",
-        "stack": ["Angular", "HTML", "CSS", "TypeScrript"],
+        "stack": ["Angular", " HTML", " CSS", " TypeScript"],
         "description": `A web application that serves as a collection of projects, skills, and 
         experience showcasing abilities and qualifications to potential employers or clients.`,
         "images": ["https://drive.google.com/uc?export=view&id=1nS1zGP9LGNXoE4wIa2mGWIDgXIzSWvyV",
@@ -77,8 +77,8 @@ export class ProjectsService {
 
       {
         "name": "digiTHEFT",
-        "category": "Windows OS Development",
-        "stack": ["Flutter", "Flask", "Arduino"],
+        "category": "Windows App Development",
+        "stack": ["Flutter", " Flask", " Arduino"],
         "description": `An electronic anti-theft surveillance system designed for 
         libraries, which comprises both the necessary hardware for tagging and 
         identifying books, as well as the software for managing the detection 
@@ -94,7 +94,7 @@ export class ProjectsService {
       {
         "name": "InstaShop",
         "category": "Mobile App Development",
-        "stack": ["Flutter", "Flask"],
+        "stack": ["Flutter", " Flask"],
         "description": `A marketplace platform designed to empower 
         small-scale businesses and social media-based entrepreneurs to effectively 
         advertise and sell their products.`,
@@ -136,7 +136,7 @@ export class ProjectsService {
       {
         "name": "More Problem Solving Projects",
         "category": "Problem Solving",
-        "stack": ["JavaScript", "Python"],
+        "stack": ["JavaScript", " Python"],
         "description": `See more of my problem solving projects on Codewars.`,
         "images": ["https://i.imgur.com/LKAcLYO.png"],
         "repo": "link",

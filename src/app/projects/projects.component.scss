@@ -177,3 +177,15 @@ div {
     }
   }
   
+.category-button {
+  margin-right: 15px;
+  margin-left: 15px;
+  position: relative;
+  opacity: 0.3;
+}
+
+.selected {
+  color: #00b728;
+  opacity: 1;
+  // transition: all 0.3s ease-in-out;
+}
