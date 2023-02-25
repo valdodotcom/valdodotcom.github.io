@@ -19,15 +19,14 @@ div { padding: 10px }
     color: #00b728;
     visibility: hidden;
     opacity: 0;
+    &:hover {
+      background-color: rgb(25, 25, 25);
+      color: white;
+    }
   }
 
 .box-lr fa-icon:first-child { float: left; }
 .box-lr fa-icon:last-child { float: right; }
-
-.ext-links:hover {
-  background-color: rgb(25, 25, 25);
-  color: white;
-}
 
 .button-vis:hover .ext-links {
   visibility: visible;
@@ -58,10 +57,9 @@ div { padding: 10px }
   white-space: nowrap;
   z-index: 1;
   transition: .3s;
+  opacity: 1;
 }
-  
-.button-vis .ext-links:hover::after { opacity: 1; }
-.button-vis .ext-links[data-title]:hover::after { content: attr(data-title); }
+  .button-vis .ext-links[data-title]:hover::after { content: attr(data-title); }
 // end of tooltip
 
 .popup {
@@ -99,10 +97,10 @@ div { padding: 10px }
   right: 25px;
   padding: 5px 10px;
   border-radius: 10px;
-}
-.close-button:hover {
-  background-color: #111111;
-  transition: .3s ease-in-out;
+  &:hover {
+    background-color: #111111;
+    transition: .3s ease-in-out;
+  }
 }
 
 .left-button, .right-button {
