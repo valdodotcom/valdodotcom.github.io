@@ -1,8 +1,4 @@
-@media screen and (max-width: 700px) {
-    .nav-item {
-      display: none;
-    }
-  }
+@media screen and (max-width: 700px) { .nav-item { display: none; } }
 
   .nav-bar {
     padding: 1.25rem;
@@ -16,7 +12,6 @@
 .nav-buttons {
     padding: 4px;
     transition: all 0.5s ease-in-out;
-
     &:hover {
         border-radius: 10px;
         background-color: #03501485;
@@ -29,11 +24,11 @@
     background-color: #059142;
     border-radius: 20px;
     transition: all 0.35s ease-in;
-}
-    .nav-item:hover {
+    &:hover {
         margin: 15px;
         background-color: #03501485;
     }
+}
 
 .navbar-dropdown {
     position: fixed;
@@ -60,8 +55,7 @@
     background-color: #059142;
     border-radius: 20px;
     transition: all 0.6s ease-in;
-}
-
-    .menu-button:hover {
+    &:hover {
         background-color: #03501485;
     }
+}

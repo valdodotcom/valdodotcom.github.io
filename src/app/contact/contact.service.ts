@@ -1,10 +1,6 @@
-import { Injectable } from '@angular/core';
 import { faLinkedin, faTwitterSquare, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faGlobeAfrica } from '@fortawesome/free-solid-svg-icons';
 
-// @Injectable({
-//   providedIn: 'root'
-// })
 export class ContactService {
 
   faEnvelope = faEnvelope;
