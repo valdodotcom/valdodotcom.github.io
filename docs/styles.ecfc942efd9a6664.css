@@ -398,7 +398,8 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
-    -webkit-appearance: button
+    -webkit-appearance: button;
+    appearance: button;
 }
 
 button:not(:disabled),
@@ -455,7 +456,8 @@ legend+* {
 
 [type=search] {
     outline-offset: -2px;
-    -webkit-appearance: textfield
+    -webkit-appearance: textfield;
+    appearance: textfield;
 }
 
 ::-webkit-color-swatch-wrapper {
@@ -464,7 +466,8 @@ legend+* {
 
 ::file-selector-button {
     font: inherit;
-    -webkit-appearance: button
+    -webkit-appearance: button;
+    appearance: button;
 }
 
 output {
@@ -12554,6 +12557,7 @@ button,
 [type=reset],
 [type=submit] {
     -webkit-appearance: button;
+    appearance: button;
     background-color: transparent;
     background-image: none
 }
@@ -12577,6 +12581,7 @@ progress {
 
 [type=search] {
     -webkit-appearance: textfield;
+    appearance: textfield;
     outline-offset: -2px
 }
 
