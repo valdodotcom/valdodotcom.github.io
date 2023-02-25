@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Skill } from '../types/Skill';
 import { SkillsService } from './skills.service';
-import { cardAnimation } from '../animations';
+import { cardAnimation } from '../animations/animations';
 
 @Component({
   selector: 'app-skills',

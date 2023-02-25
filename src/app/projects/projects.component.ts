@@ -6,13 +6,13 @@ import { faPlayCircle } from '@fortawesome/free-regular-svg-icons';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
-import { cardAnimation } from '../animations';
+import { cardAnimationCategory } from '../animations/animations';
 
 @Component({
   selector: 'app-projects',
   templateUrl: './projects.component.html',
   styleUrls: ['./projects.component.scss'],
-  animations: [cardAnimation()]
+  animations: [cardAnimationCategory()]
 })
 export class ProjectsComponent implements OnInit {
 
@@ -29,10 +29,16 @@ export class ProjectsComponent implements OnInit {
   currentImageIndex = 0;
 
   categoryFilter: string = '';
+  shouldAnimate: boolean = false;
 
-setCategory(category: string) {
-  this.categoryFilter = category;
-}
+  setCategory(category: string) {
+    this.categoryFilter = category;
+    this.shouldAnimate = true;
+  }
+
+  onAnimationComplete(): void {
+    this.shouldAnimate = false;
+  }
 
   constructor(private ProjectsService: ProjectsService) { }
 
