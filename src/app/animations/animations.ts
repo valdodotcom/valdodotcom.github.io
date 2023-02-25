@@ -1,5 +1,4 @@
-import { trigger, transition, style, animate, AnimationOptions, animateChild, query } from '@angular/animations';
-import { AnimationStateService } from './animation-state.service';
+import { trigger, transition, style, animate, animateChild, query } from '@angular/animations';
 
 export function cardAnimation() {
     return trigger('cardAnimation', [

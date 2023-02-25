@@ -1,191 +1,140 @@
-div {
-    padding: 10px;
-}
+div { padding: 10px }
 
 .project-image{
     display: block;
     margin: 0 auto;
     width: 80%;
     height: 50%;
-    object-fit: contain;
   }
 
-.box:hover {
-    padding: 3%;
-}
+.box:hover { padding: 3%; }
 
 .ext-links {
     padding: 1px 20px 2px 20px;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 10px;
+    margin: 0 10% 10px;
     border-radius: 20px;
     border: solid 1px #05912422;
-    transition: all 0.3s ease-in-out;
+    transition: all .3s ease-in-out, visibility 0s, opacity .25s ease;;
     background-color: rgb(25, 25, 25);
+    color: #00b728;
+    visibility: hidden;
+    opacity: 0;
   }
 
-.box-lr fa-icon:first-child {
-    float: left;
-}
-
-.box-lr fa-icon:last-child {
-    float: right;
-}
+.box-lr fa-icon:first-child { float: left; }
+.box-lr fa-icon:last-child { float: right; }
 
 .ext-links:hover {
   background-color: rgb(25, 25, 25);
   color: white;
 }
 
-.ext-links {
-    color: #00b728;
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 0s, opacity 0.25s ease;
-  }
+.button-vis:hover .ext-links {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s, opacity .25s ease;
+}
 
-  .button-vis:hover .ext-links {
-    visibility: visible;
-    opacity: 1;
-    transition: visibility 0s, opacity 0.25s ease;
-  }
+// tooltip
+.button-vis .ext-links {
+  position: relative;
+  display: inline-block;
+}
 
-
-  // tooltip
-
-  .button-vis .ext-links {
-    position: relative;
-    display: inline-block;
-  }
-
-  .button-vis .ext-links fa-icon {
-    position: relative;
-    z-index: 1;
-  }
+.button-vis .ext-links fa-icon {
+  position: relative;
+  z-index: 1;
+}
   
-  .button-vis .ext-links:hover::after {
-    position: absolute;
-    content: attr(data-title);
-    left: 0;
-    top: 100%;
-    background-color: rgb(25, 25, 25);
-    color: #fff;
-    padding: .2rem .4rem;
-    border-radius: .3rem;
-    white-space: nowrap;
-    z-index: 1;
-    opacity: 0;
-    transition: .3s;
-  }
+.button-vis .ext-links:hover::after {
+  position: absolute;
+  content: attr(data-title);
+  left: -10%;
+  top: 110%;
+  background-color: rgb(25, 25, 25);
+  color: #fff;
+  padding: .2rem .4rem;
+  border-radius: .3rem;
+  white-space: nowrap;
+  z-index: 1;
+  transition: .3s;
+}
   
-  .button-vis .ext-links:hover::after {
-    opacity: 1;
-  }
-  
-  .button-vis .ext-links[data-title]:hover::after {
-    content: attr(data-title);
-  }
+.button-vis .ext-links:hover::after { opacity: 1; }
+.button-vis .ext-links[data-title]:hover::after { content: attr(data-title); }
+// end of tooltip
 
-  // end of tooltip
+.popup {
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #1e1e1e;
+  width: 90%;
+  height: 85%;
+  box-shadow: 2px 2px 8px black;
+  border-radius: 5px;
+  z-index: 10;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  .popup {
-    position: fixed;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: 	#1e1e1e;
-    width: 90%;
-    height: 85%;
-    box-shadow: 2px 2px 8px black;
-    border-radius: 5px;
-    z-index: 10;
-    box-sizing: content-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+.popup-active { opacity: .2; }
+.popup button:disabled { opacity: .1; }
 
-  .popup-active {
-    opacity: 0.2;
-  }
+.popup img {
+  padding: 0px 30px;
+  margin: 30px 0 0 3%;
+  width: 90%;
+  height: 90%;
+  max-height: 600px;
+}
 
-  .popup button:disabled {
-    opacity: 0.1;
-  }
-  
-  .popup img {
-    padding: 0px 30px;
-    margin-top: 30px;
-    margin-left: 3%;
-    width: 90%;
-    height: 90%;
-    max-height: 600px;
-  }
-  
-  .close-button {
-    position: absolute;
-    top: 20px;
-    right: 25px;
-    padding: 5px 10px;
-    border-radius: 10px;
-  }
-  .close-button:hover {
-    background-color: #111111;
-    transition: 0.3s ease-in-out;
-  }
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.close-button:hover {
+  background-color: #111111;
+  transition: .3s ease-in-out;
+}
 
-  .left-button {
-    position: absolute;
-    top: 40vh;
-    left: 15px;
-    padding: 20px 10px;
-    border-radius: 10px;
-  }
+.left-button, .right-button {
+  position: absolute;
+  top: 40vh;
+  padding: 20px 10px;
+  border-radius: 10px;
+}
 
-  .right-button {
-    position: absolute;
-    top: 40vh;
-    right: 15px;
-    padding: 20px 10px;
-    border-radius: 10px;
-  }
+.left-button { left: 15px; }
+.right-button { right: 15px; }
 
-  .popup button:hover{
-    background-color: #111111;
-    transition: 0.3s ease-in-out;
-  }
+.popup button:hover{
+  background-color: #111111;
+  transition: .3s ease-in-out;
+}
 
-  .pic-num {
-    position: absolute;
-    bottom: 10px;
-  }
+.pic-num, .pic-heading { position: absolute; }
+.pic-num { bottom: 10px; }
+.pic-heading { top: 20px; }
 
-  .pic-heading {
-    position: absolute;
-    top: 20px;
-  }
+.arrange { display: flex; }
 
-  .arrange {
-    display: flex;
-  }
-
-  @media screen and (max-width: 700px) {
-    h2 {
-      padding-top: 80px;
-    }
-  }
+@media screen and (max-width: 700px) { h2 { padding-top: 80px; } }
   
 .category-button {
-  margin-right: 15px;
-  margin-left: 15px;
+  margin: 0 15px 0 15px;
   position: relative;
-  opacity: 0.3;
+  opacity: .3;
 }
 
 .selected {
   color: #00b728;
   opacity: 1;
-  // transition: all 0.3s ease-in-out;
 }
