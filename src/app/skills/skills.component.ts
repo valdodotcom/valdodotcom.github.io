@@ -1,13 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { Skill } from '../types/Skill';
 import { SkillsService } from './skills.service';
-import { cardAnimation } from '../animations/animations';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-skills',
   templateUrl: './skills.component.html',
   styleUrls: ['./skills.component.scss'],
-  animations: [cardAnimation()]
 })
 export class SkillsComponent implements OnInit {
 
@@ -19,4 +18,7 @@ export class SkillsComponent implements OnInit {
     this.services = this.SkillsService.getService()
   }
 
+  ngAfterViewInit(): void {
+    AOS.init();
+  }
 }

@@ -15,7 +15,7 @@
     </div>
 
 
-    <div class="grid grid-cols-3" [@cardAnimationCategory]="shouldAnimate" (@cardAnimationCategory.start)="onAnimationComplete()">
+    <div class="grid grid-cols-3" [@cardAnimationCategory]="shouldAnimate" (@cardAnimationCategory.start)="onAnimationComplete()" data-aos="fade-up">
         <ng-container *ngFor="let singleProject of projects | slice:0:-7 | filter: categoryFilter; let i = index">
             <div [ngStyle]="{'grid-column': (i % 3) + 1 }" class="box box-lr button-vis">
                 <h3 class="pt-10">{{ singleProject.name }}</h3>
@@ -48,7 +48,7 @@
 
     </div>
 
-    <div class="grid grid-cols-3" [@cardAnimationCategory]="shouldAnimate" (@cardAnimationCategory.start)="onAnimationComplete()">
+    <div class="grid grid-cols-3" [@cardAnimationCategory]="shouldAnimate" (@cardAnimationCategory.start)="onAnimationComplete()" data-aos="fade-up">
         <ng-container *ngFor="let singleProject of projects | slice:-7:-1 | filter: categoryFilter; let i = index">
             <div [ngStyle]="{'grid-column': (i % 3) + 1 }" class="box box-c button-vis">
                 <h3 class="pt-10">{{ singleProject.name }}</h3>

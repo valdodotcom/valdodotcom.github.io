@@ -7,20 +7,11 @@
                 <p class="py-3">{{ singleP }}</p>
             </ng-container>
         </div>
-
     </div>
 
     <div>
         <h3 class="py-5">Skill Set</h3>
-
-        <!-- <div class="grid grid-cols-3">
-            <ng-container *ngFor="let singleTool of tools; let i = index">
-                <div [ngStyle]="{'grid-column': (i % 3) + 1 }" class="px-2 py-1 box">
-                    {{ singleTool.language }} - {{ singleTool.level }}</div>
-            </ng-container>
-        </div> -->
-
-        <div class="grid grid-cols-3" [@cardAnimation]>
+        <div class="grid grid-cols-3" data-aos="fade-up">
             <ng-container *ngFor="let singleTool of tools; let i = index">
                 <div [ngStyle]="{'grid-column': (i % 3) + 1 }" class="px-2 py-1 box">
                     <div style="float: left;">{{ singleTool.language }}</div>

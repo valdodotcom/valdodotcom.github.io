@@ -1,6 +1,6 @@
 <div id="services" class="px-10 lg:px-20 py-10 text-center">
     <h2 class="py-10">Services</h2>
-        <div class="grid grid-cols-3" [@cardAnimation]>
+        <div class="grid grid-cols-3" data-aos="fade-up">
             <ng-container *ngFor="let singleService of services; let i = index">
                 <div [ngStyle]="{'grid-column': (i % 3) + 1 }" class="p-10 box serv">
                     <h3 class="pb-3">{{ singleService.name }}</h3>
