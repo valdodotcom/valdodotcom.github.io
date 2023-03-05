@@ -13,7 +13,7 @@ export function cardAnimationCategory() {
   return trigger('cardAnimationCategory', [
       transition('* => *', [
         style({ opacity: 0, transform: 'translateY(30px)' }),
-        animate('700ms ease-out', style({ opacity: 1, transform: 'translateY(0)' }))
+        animate('400ms ease-in-out', style({ opacity: 1, transform: 'translateY(0)' }))
       ]),
       // Add this transition to trigger the animation every time categoryFilter changes
       // and set a boolean flag to trigger the animation only once per filter change

@@ -33,7 +33,8 @@
             ],
             "scripts": [],
             "allowedCommonJsDependencies": [
-              "typed.js"
+              "typed.js",
+              "aos"
             ]
           },
           "configurations": {
