@@ -7,6 +7,7 @@ import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
 import { cardAnimationCategory } from '../animations/animations';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-projects',
@@ -45,7 +46,8 @@ export class ProjectsComponent implements OnInit {
   projects: Project[] = []
 
   ngOnInit(): void {
-    this.projects = this.ProjectsService.getProjects()
+    this.projects = this.ProjectsService.getProjects();
+    AOS.init();
   }
 
 }
