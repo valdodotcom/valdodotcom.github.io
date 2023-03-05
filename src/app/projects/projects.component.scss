@@ -13,12 +13,12 @@ div { padding: 10px }
     padding: 1px 20px 2px 20px;
     margin: 0 10% 10px;
     border-radius: 20px;
-    border: solid 1px #05912422;
-    transition: all .3s ease-in-out, visibility 0s, opacity .25s ease;;
+    // border: solid 1px #05912422;
+    // transition: all .3s ease-in-out, visibility 0s, opacity .25s ease;
     background-color: rgb(25, 25, 25);
-    color: #00b728;
-    visibility: hidden;
-    opacity: 0;
+    color: #059124;
+    // visibility: visible;
+    // opacity: 0;
     &:hover {
       background-color: rgb(25, 25, 25);
       color: white;
@@ -28,11 +28,9 @@ div { padding: 10px }
 .box-lr fa-icon:first-child { float: left; }
 .box-lr fa-icon:last-child { float: right; }
 
-.button-vis:hover .ext-links {
-  visibility: visible;
-  opacity: 1;
-  transition: visibility 0s, opacity .25s ease;
-}
+// .button-vis:hover .ext-links {
+  // opacity: 1;
+// }
 
 // tooltip
 .button-vis .ext-links {
