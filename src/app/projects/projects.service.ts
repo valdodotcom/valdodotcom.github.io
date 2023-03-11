@@ -7,21 +7,20 @@ export class ProjectsService {
 
   constructor() { }
 
-  digitTHEFTSecondPic = ['https://drive.google.com/uc?export=view&id=1xNiP-ljBS7_o6kRF_3WEvDozrPyjcVdf']
-
   getProjects() {
     return [
       {
-        "name": "Cook Book",
+        "name": "My Cookbook",
         "category": "Web Development",
         "stack": ["HTML", " CSS"],
         "description": `A webpage that displays a variety 
         of meals along with their corresponding recipes for easy access and reference.`,
-        "images": ["https://drive.google.com/uc?export=view&id=16K9sOoh0Txu_nTKBpygbJh-SFiwCil-T",
-                  "https://drive.google.com/uc?export=view&id=127N6C2V1UcXpLnnDenbOqRxBV4h4ZP5S",
-                  "https://drive.google.com/uc?export=view&id=16K9sOoh0Txu_nTKBpygbJh-SFiwCil-T"],
+        "images": ["https://drive.google.com/uc?export=view&id=1kl4ziCmbn7_FEXKnaedayvNarxz2hijq",
+        "https://drive.google.com/uc?export=view&id=1iD_gj9yEshgTTOudQsOcqfQaU1EwUJIS",
+        "https://drive.google.com/uc?export=view&id=1qmQ3UfjNEptgX7d2Ju1n1yNaF1qg6cam"
+        ],
         "repo": "link",
-        "demo": "https://codepen.io/valdodotcom/full/VwaOEKQ"       
+        "demo": "https://codepen.io/valdodotcom/full/oNPYbpR"       
       },
 
       {
@@ -68,9 +67,7 @@ export class ProjectsService {
         "stack": ["Angular", " HTML", " CSS", " TypeScript"],
         "description": `A web application that serves as a collection of projects, skills, and 
         experience showcasing abilities and qualifications to potential employers or clients.`,
-        "images": ["https://drive.google.com/uc?export=view&id=1nS1zGP9LGNXoE4wIa2mGWIDgXIzSWvyV",
-        "https://drive.google.com/uc?export=view&id=127N6C2V1UcXpLnnDenbOqRxBV4h4ZP5S",
-        "https://drive.google.com/uc?export=view&id=16K9sOoh0Txu_nTKBpygbJh-SFiwCil-T"],
+        "images": ["https://drive.google.com/uc?export=view&id=1nS1zGP9LGNXoE4wIa2mGWIDgXIzSWvyV"],
         "repo": "https://github.com/valdodotcom/valdodotcom.github.io",
         "demo": "link"  
       },
