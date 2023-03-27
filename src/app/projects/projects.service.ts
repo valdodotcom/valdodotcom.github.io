@@ -12,14 +12,14 @@ export class ProjectsService {
       {
         "name": "My Cookbook",
         "category": "Web Development",
-        "stack": ["HTML", " CSS"],
+        "stack": ["HTML", " CSS", " JS"],
         "description": `A webpage that displays a variety 
         of meals along with their corresponding recipes for easy access and reference.`,
         "images": ["https://drive.google.com/uc?export=view&id=1kl4ziCmbn7_FEXKnaedayvNarxz2hijq",
         "https://drive.google.com/uc?export=view&id=1iD_gj9yEshgTTOudQsOcqfQaU1EwUJIS",
         "https://drive.google.com/uc?export=view&id=1qmQ3UfjNEptgX7d2Ju1n1yNaF1qg6cam"
         ],
-        "repo": "link",
+        "repo": "https://github.com/valdodotcom/my-cookbook",
         "demo": "https://codepen.io/valdodotcom/full/oNPYbpR"       
       },
 

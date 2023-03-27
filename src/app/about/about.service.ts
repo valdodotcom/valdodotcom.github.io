@@ -27,7 +27,8 @@ export class AboutService {
     return [
       { "language": 'Angular', "level": 'Proficient', "width": "95%" },
       { "language": 'HTML5', "level": 'Proficient', "width": "95%" },
-      { "language": 'CSS3', "level": 'Proficient', "width": "95%" },
+      { "language": 'CSS (SCSS)', "level": 'Proficient', "width": "95%" },
+      { "language": 'React', "level": 'Competent', "width": "70%" },
       { "language": 'JavaScript', "level": 'Proficient', "width": "90%" },
       { "language": 'TypeScript', "level": 'Competent', "width": "70%" },
       { "language": 'Flutter', "level": 'Proficient', "width": "90%" },
@@ -36,7 +37,6 @@ export class AboutService {
       { "language": 'Arduino', "level": 'Competent', "width": "70%" },
       { "language": 'C++', "level": 'Familiar', "width": "50%" },
       { "language": 'C', "level": 'Familiar', "width": "50%" },
-      { "language": 'Java', "level": 'Familiar', "width": "50%" },
       ]
   }
 
