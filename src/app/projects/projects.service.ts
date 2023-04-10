@@ -12,28 +12,29 @@ export class ProjectsService {
       {
         "name": "My Cookbook",
         "category": "Web Development",
-        "stack": ["HTML", " CSS"],
+        "stack": ["HTML", " CSS", " JS"],
         "description": `A webpage that displays a variety 
         of meals along with their corresponding recipes for easy access and reference.`,
         "images": ["https://drive.google.com/uc?export=view&id=1kl4ziCmbn7_FEXKnaedayvNarxz2hijq",
         "https://drive.google.com/uc?export=view&id=1iD_gj9yEshgTTOudQsOcqfQaU1EwUJIS",
         "https://drive.google.com/uc?export=view&id=1qmQ3UfjNEptgX7d2Ju1n1yNaF1qg6cam"
         ],
-        "repo": "link",
+        "repo": "https://github.com/valdodotcom/my-cookbook",
         "demo": "https://codepen.io/valdodotcom/full/oNPYbpR"       
       },
 
       {
-        "name": "Product Landing Page",
+        "name": "Product Website",
         "category": "Web Development",
-        "stack": ["HTML", " CSS"],
-        "description": `A webpage specifically designed to promote 
-        and market a specific product or service.`,
+        "stack": ["React", " Firebase", " HTML", " CSS", " JS"],
+        "description": `A website designed to promote and market decorative glass plaques
+        for the brand Glassic Plaques.
+        Customers can view their catalogue and also place an order for products using this site.`,
         "images": ["https://drive.google.com/uc?export=view&id=127N6C2V1UcXpLnnDenbOqRxBV4h4ZP5S",
         "https://drive.google.com/uc?export=view&id=127N6C2V1UcXpLnnDenbOqRxBV4h4ZP5S",
         "https://drive.google.com/uc?export=view&id=16K9sOoh0Txu_nTKBpygbJh-SFiwCil-T"],
-        "repo": "link",
-        "demo": "https://codepen.io/valdodotcom/full/QWNzprK"  
+        "repo": "https://github.com/valdodotcom/glassic-site/",
+        "demo": "https://glassic-site.web.app/"  
       },
 
       {
@@ -103,40 +104,26 @@ export class ProjectsService {
       },
       
       {
-        "name": "JSON Difference Checker",
-        "category": "Problem Solving",
-        "stack": ["JavaScript"],
-        "description": `A function that returns differences between two 
-        arrays of objects, i.e. additions, removals, and changes in object status.`,
-        "images": ["https://drive.google.com/uc?export=view&id=1jKgxoyOOuxuW35175dqoDMnS1emhgqvM",
-        "https://drive.google.com/uc?export=view&id=127N6C2V1UcXpLnnDenbOqRxBV4h4ZP5S",
-        "https://drive.google.com/uc?export=view&id=16K9sOoh0Txu_nTKBpygbJh-SFiwCil-T"],
-        "repo": "https://github.com/valdodotcom/json_difference_checker",
-        "demo": "link" 
-      },
-
-      {
-        "name": "Modbus Register Reader",
-        "category": "Problem Solving",
-        "stack": ["Python"],
-        "description": `A script designed for a Modbus 
-        device with unknown connection parameters, 
-        i.e. baud rate, data bits, parity, and stop bits. It loops through all the 
-        possible combinations of the parameters until the right match is found.`,
-        "images": ["https://drive.google.com/uc?export=view&id=1SmpHzo_7b-ReAtVZIhjUj3tqx-nGKQ2R",
-        "https://drive.google.com/uc?export=view&id=127N6C2V1UcXpLnnDenbOqRxBV4h4ZP5S",
-        "https://drive.google.com/uc?export=view&id=16K9sOoh0Txu_nTKBpygbJh-SFiwCil-T"],
-        "repo": "https://github.com/valdodotcom/modbus-register-reader",
-        "demo": "link" 
-      },
-
-      {
-        "name": "More Problem Solving Projects",
+        "name": "Github Gists",
         "category": "Problem Solving",
         "stack": ["JavaScript", " Python"],
-        "description": `See more of my problem solving projects on Codewars.`,
+        "description": `Follow the link to view my Github Gists where I keep scripts
+        I have created for various purposes.`,
+        "images": [
+          'https://drive.google.com/uc?export=view&id=14kbxoB3ZZnJzkCm3a6wA_M86Xx50YjMY',
+          'https://drive.google.com/uc?export=view&id=17vrFafeQlcy6SNRJqUOq2J2dYal8lGjj',
+          'https://drive.google.com/uc?export=view&id=1ouqAVEa4vhDqoTdnukYVWZJbqIb78tgt'],
+        "repo": "https://gist.github.com/valdodotcom/",
+        "demo": "link" 
+      },
+
+      {
+        "name": "Codewars",
+        "category": "Problem Solving",
+        "stack": ["JavaScript", " Python"],
+        "description": `See more of my problem solving scripts on Codewars.`,
         "images": ["https://i.imgur.com/LKAcLYO.png"],
-        "repo": "link",
+        "repo": "https://www.codewars.com/users/valdodotcom",
         "demo": "link" 
       }
     ]

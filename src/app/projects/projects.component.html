@@ -16,7 +16,7 @@
 
 
     <div class="grid grid-cols-3" [@cardAnimationCategory]="shouldAnimate" (@cardAnimationCategory.start)="onAnimationComplete()">
-        <ng-container *ngFor="let singleProject of projects | slice:0:-7 | filter: categoryFilter; let i = index">
+        <ng-container *ngFor="let singleProject of projects | slice:0:-6 | filter: categoryFilter; let i = index">
         <div data-aos="fade-up">
             <div [ngStyle]="{'grid-column': (i % 3) + 1 }" class="box box-lr button-vis">
                 <h3 class="pt-10">{{ singleProject.name }}</h3>
@@ -39,8 +39,8 @@
                     </a>
                     
                     <a [href]="singleProject.repo">
-                        <button data-title="View Repo" class="text-xs ext-links" onclick="location.href= singleProject.repo" type="button">
-                            <fa-icon [icon]="githubLogo" class="text-lg"></fa-icon>
+                        <button data-title="View Code" class="text-xs ext-links" onclick="location.href= singleProject.repo" type="button">
+                            <fa-icon [icon]="codeButton" class="text-lg"></fa-icon>
                             </button>
                     </a>
                 </div>
@@ -50,7 +50,7 @@
     </div>
 
     <div class="grid grid-cols-3">
-        <ng-container *ngFor="let singleProject of projects | slice:-7:-1 | filter: categoryFilter; let i = index">
+        <ng-container *ngFor="let singleProject of projects | slice:-6 | filter: categoryFilter; let i = index">
             <div data-aos="fade-up">
             <div [ngStyle]="{'grid-column': (i % 3) + 1 }" class="box box-c button-vis">
                 <h3 class="pt-10">{{ singleProject.name }}</h3>
@@ -67,8 +67,8 @@
                     <p class="text-sm text-gray-400">Stack: {{ singleProject.stack }}</p>
                     <div class="pb-4">
                     <a [href]="singleProject.repo">
-                    <button data-title="View Repo" class="text-xs mt-4 ext-links">
-                    <fa-icon [icon]="githubLogo" class="text-lg"></fa-icon>
+                    <button data-title="View Code" class="text-xs mt-4 ext-links">
+                    <fa-icon [icon]="codeButton" class="text-lg"></fa-icon>
                     </button>
                 </a></div>
             </div>

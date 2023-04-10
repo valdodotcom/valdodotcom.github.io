@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Project } from '../types/Project';
 import { ProjectsService } from './projects.service';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faFolderOpen } from '@fortawesome/free-regular-svg-icons';
 import { faPlayCircle } from '@fortawesome/free-regular-svg-icons';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
@@ -19,7 +19,7 @@ export class ProjectsComponent implements OnInit {
 
   isImageLoaded = false;
 
-  githubLogo = faGithub;
+  codeButton = faFolderOpen;
   playButton = faPlayCircle;
   rightButton = faChevronRight;
   leftButton = faChevronLeft;
