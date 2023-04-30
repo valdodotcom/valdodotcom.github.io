@@ -79,7 +79,7 @@
 
 <section class="px-10 lg:px-20 pt-10 text-center" id="popup">
     <div class="popup" *ngIf="showPopup">
-        <h3 class="pt-2 pic-heading">{{selectedProject.name}}</h3>
+        <!-- <h3 class="pt-2 pic-heading">{{selectedProject.name}}</h3> -->
             <div class="arrange">
                 <button class="left-button" (click)="currentImageIndex=currentImageIndex-1" [disabled]="currentImageIndex == 0">
                     <fa-icon [icon]="leftButton" class="text-lg"></fa-icon>

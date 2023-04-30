@@ -10,7 +10,7 @@ export class ProjectsService {
   getProjects() {
     return [
       {
-        "name": "My Cookbook",
+        "name": "Recipe List",
         "category": "Web Development",
         "stack": ["HTML", " CSS", " JS"],
         "description": `A webpage that displays a variety 
@@ -29,7 +29,8 @@ export class ProjectsService {
         "stack": ["React", " Firebase", " HTML", " CSS", " JS"],
         "description": `A website designed to promote and market decorative glass plaques
         for the brand Glassic Plaques.
-        Customers can view their catalogue and also place an order for products using this site.`,
+        Customers can view their catalogue and also place an order for products using this site.
+        Email: user@test.com Password: user-test`,
         "images": ["https://drive.google.com/uc?export=view&id=1zk0pUA2IdnIdEY8n5DfN1vCJrOBIrcUR",
         "https://drive.google.com/uc?export=view&id=1XRMNNbjF_vCspjpGufxECVR5RaDlTELL",
         "https://drive.google.com/uc?export=view&id=1S3eyqVsTH1vhGKSUWaZXGrQl3IR31wXA"],
@@ -38,16 +39,17 @@ export class ProjectsService {
       },
 
       {
-        "name": "Survey Form",
+        "name": "View Orders",
         "category": "Web Development",
-        "stack": ["HTML", " CSS"],
-        "description": `A series of questions or statements 
-        that are designed to gather specific data or feedback.`,
-        "images": ["https://drive.google.com/uc?export=view&id=1b3M3ErplvQMcUV4kcTV9RnwIt-ucbADT",
-        "https://drive.google.com/uc?export=view&id=127N6C2V1UcXpLnnDenbOqRxBV4h4ZP5S",
-        "https://drive.google.com/uc?export=view&id=16K9sOoh0Txu_nTKBpygbJh-SFiwCil-T"],
-        "repo": "link",
-        "demo": "https://codepen.io/valdodotcom/full/MWyzzaN"  
+        "stack": ["React", " Firebase", " HTML", " CSS", " JS"],
+        "description": `A companion for the product website. This site is
+        used to view the orders placed by customers.
+        Email: user@test.com Password: user-test`,
+        "images": ["https://drive.google.com/uc?export=view&id=1iCJiOVtkEXERMQN_3kU2-KlLc-4paMFJ",
+        "https://drive.google.com/uc?export=view&id=1sm_CUtRPwQFv7YG-uvx4oNvBXm-BBzwM",
+      "https://drive.google.com/uc?export=view&id=1O-JGfG-RZ_bcYdM4ZEcQEfUA087HhW_m"],
+        "repo": "https://github.com/valdodotcom/glassic-orders/",
+        "demo": "https://view-glassic-orders.web.app/"  
       },
 
       {
