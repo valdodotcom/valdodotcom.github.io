@@ -51,18 +51,6 @@ export class ProjectsService {
       },
 
       {
-        "name": "Tribute Page",
-        "category": "Web Development",
-        "stack": ["HTML", " CSS"],
-        "description": `A webpage to honor or remember a person, group, or organization.`,
-        "images": ["https://drive.google.com/uc?export=view&id=1dRCx6DtjuDJ2AICPVaWT7Vkcq8MI53Kx",
-        "https://drive.google.com/uc?export=view&id=127N6C2V1UcXpLnnDenbOqRxBV4h4ZP5S",
-        "https://drive.google.com/uc?export=view&id=16K9sOoh0Txu_nTKBpygbJh-SFiwCil-T"],
-        "repo": "link",
-        "demo": "link"
-      },
-
-      {
         "name": "My Portfolio (this website!)",
         "category": "Web Development",
         "stack": ["Angular", " HTML", " CSS", " TypeScript"],
@@ -83,8 +71,8 @@ export class ProjectsService {
         status of borrowed and returned books. The system also includes a 
         comprehensive database for efficient management of the library's inventory.`,
         "images": ["https://drive.google.com/uc?export=view&id=1tD905xCWe4BJ1zq1zKwF4l4le9WUeOHA",
-        "https://drive.google.com/uc?export=view&id=127N6C2V1UcXpLnnDenbOqRxBV4h4ZP5S",
-        "https://drive.google.com/uc?export=view&id=16K9sOoh0Txu_nTKBpygbJh-SFiwCil-T"],
+        "https://drive.google.com/uc?export=view&id=1kge5J_cXSvd7Ny5OOux0u78Jweyc99bL",
+        "https://drive.google.com/uc?export=view&id=1xNiP-ljBS7_o6kRF_3WEvDozrPyjcVdf"],
         "repo": "https://github.com/direntwi/digiTHEFT",
         "demo": "link" 
       },
@@ -96,11 +84,23 @@ export class ProjectsService {
         "description": `A marketplace platform designed to empower 
         small-scale businesses and social media-based entrepreneurs to effectively 
         advertise and sell their products.`,
-        "images": ["https://drive.google.com/uc?export=view&id=1nab1Jb1olTSwV4DoM3sSRa9wTiAQqy5Z",
-        "https://drive.google.com/uc?export=view&id=127N6C2V1UcXpLnnDenbOqRxBV4h4ZP5S",
-        "https://drive.google.com/uc?export=view&id=16K9sOoh0Txu_nTKBpygbJh-SFiwCil-T"],
+        "images": ["https://drive.google.com/uc?export=view&id=1opWpc58QB5a_kVnx3AV6CjyhBbsO--Px",
+        "https://drive.google.com/uc?export=view&id=1nab1Jb1olTSwV4DoM3sSRa9wTiAQqy5Z",
+        "https://drive.google.com/uc?export=view&id=1IcjD9u-Vhqy50bhhHgM34NbXFrVnnuSV"],
         "repo": "https://github.com/valdodotcom/COE356-VorTech",
         "demo": "link" 
+      },
+      
+      {
+        "name": "Tribute Page",
+        "category": "Web Development",
+        "stack": ["HTML", " CSS"],
+        "description": `A webpage to honor or remember a person, group, or organization.`,
+        "images": ["https://drive.google.com/uc?export=view&id=1dRCx6DtjuDJ2AICPVaWT7Vkcq8MI53Kx",
+        "https://drive.google.com/uc?export=view&id=127N6C2V1UcXpLnnDenbOqRxBV4h4ZP5S",
+        "https://drive.google.com/uc?export=view&id=16K9sOoh0Txu_nTKBpygbJh-SFiwCil-T"],
+        "repo": "link",
+        "demo": "link"
       },
       
       {
