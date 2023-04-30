@@ -30,9 +30,9 @@ export class ProjectsService {
         "description": `A website designed to promote and market decorative glass plaques
         for the brand Glassic Plaques.
         Customers can view their catalogue and also place an order for products using this site.`,
-        "images": ["https://drive.google.com/uc?export=view&id=127N6C2V1UcXpLnnDenbOqRxBV4h4ZP5S",
-        "https://drive.google.com/uc?export=view&id=127N6C2V1UcXpLnnDenbOqRxBV4h4ZP5S",
-        "https://drive.google.com/uc?export=view&id=16K9sOoh0Txu_nTKBpygbJh-SFiwCil-T"],
+        "images": ["https://drive.google.com/uc?export=view&id=1zk0pUA2IdnIdEY8n5DfN1vCJrOBIrcUR",
+        "https://drive.google.com/uc?export=view&id=1XRMNNbjF_vCspjpGufxECVR5RaDlTELL",
+        "https://drive.google.com/uc?export=view&id=1S3eyqVsTH1vhGKSUWaZXGrQl3IR31wXA"],
         "repo": "https://github.com/valdodotcom/glassic-site/",
         "demo": "https://glassic-site.web.app/"  
       },
