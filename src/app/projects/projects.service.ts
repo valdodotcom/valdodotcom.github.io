@@ -94,18 +94,6 @@ export class ProjectsService {
       },
       
       {
-        "name": "Tribute Page",
-        "category": "Web Development",
-        "stack": ["HTML", " CSS"],
-        "description": `A webpage to honor or remember a person, group, or organization.`,
-        "images": ["https://drive.google.com/uc?export=view&id=1dRCx6DtjuDJ2AICPVaWT7Vkcq8MI53Kx",
-        "https://drive.google.com/uc?export=view&id=127N6C2V1UcXpLnnDenbOqRxBV4h4ZP5S",
-        "https://drive.google.com/uc?export=view&id=16K9sOoh0Txu_nTKBpygbJh-SFiwCil-T"],
-        "repo": "link",
-        "demo": "link"
-      },
-      
-      {
         "name": "Github Gists",
         "category": "Problem Solving",
         "stack": ["JavaScript", " Python"],
