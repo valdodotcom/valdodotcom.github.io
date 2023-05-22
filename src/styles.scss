@@ -3,6 +3,10 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+body {
+  font-family: monospace;
+}
+
 h1, h2, h3 {
   font-weight: bold;
 }

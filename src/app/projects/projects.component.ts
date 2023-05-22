@@ -46,7 +46,9 @@ export class ProjectsComponent implements OnInit {
   projects: Project[] = []
 
   ngOnInit(): void {
-    this.projects = this.ProjectsService.getProjects();
+    this.ProjectsService.getProjects().subscribe((data: { [key: string]: Project }) => {
+      this.projects = Object.values(data);
+    });
     AOS.init();
   }
 
