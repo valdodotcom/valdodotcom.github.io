@@ -17,7 +17,7 @@ export class SkillsService {
           HTML, CSS, JavaScript, and Angular, that adapt to any device and are tailored to 
           the unique needs of you and your customers, with a focus on user-friendliness 
           and visual appeal.`,
-          "icon": faMobileAlt
+          "icon": faLaptopCode
         },
 
         {
@@ -25,7 +25,7 @@ export class SkillsService {
           "description": `I am an experienced in using the Flutter framework to design, 
           develop and deploy visually appealing, modern, and user-friendly mobile 
           applications for both iOS and Android that deliver an exceptional user experience.`,
-          "icon": faLaptopCode
+          "icon": faMobileAlt
         },
 
         {
