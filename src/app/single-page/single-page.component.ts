@@ -33,4 +33,6 @@ export class SinglePageComponent implements OnInit {
     this.isShowing = !this.isShowing;
   }
 
+  currentYear: number = new Date().getFullYear();
+
 }

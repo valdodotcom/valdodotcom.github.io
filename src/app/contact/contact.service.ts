@@ -20,11 +20,6 @@ export class ContactService {
         "icon": faGithub,
       },
       {
-        "name": "@valdodotcom",
-        "address": "https://twitter.com/valdodotcom",
-        "icon": faTwitterSquare,
-      },
-      {
         "name": "Accra, Ghana",
         "address": "",
         "icon": faGlobeAfrica,

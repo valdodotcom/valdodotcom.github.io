@@ -29,8 +29,8 @@ export class SkillsService {
         },
 
         {
-          "name": "Windows OS App Development",
-          "description": `I also have experience utilizing the powerful Flutter framework 
+          "name": "Windows App Development",
+          "description": `I also have experience utilizing Flutter & Electron 
           to develop highly functional and efficient applications that are specifically 
           tailored to solve problems and run seamlessly on the Windows Operating System.`,
           "icon": faWindows
